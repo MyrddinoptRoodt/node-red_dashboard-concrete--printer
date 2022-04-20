@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  node_red:
+    image: nodered/node-red
+    container_name: node_red
+    restart: always
+    privileged: true
+    volumes:
+      - ./data:/data
+    ports:
+      - "80:80"
+      - "1880:1880"
+    networks:
+      - local
+  db:
+    image: mysql:latest
+    container_name: db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: node_red
+      MYSQL_USER: node_red
+      MYSQL_PASSWORD: node_red
+    volumes:
+      - ./db:/var/lib/mysql
+    networks:
+      - local
+    ports:
+      - "3306:3306"
+networks:
+  local:

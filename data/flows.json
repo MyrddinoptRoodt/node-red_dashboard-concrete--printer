@@ -1,0 +1,32 @@
+[
+    {
+        "id": "6e5c79bcaeebd8b9",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "891ee435ac193545",
+        "type": "MySQLdatabase",
+        "name": "db_nodered",
+        "host": "db",
+        "port": "3306",
+        "db": "node_red",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "1e87626276b7d1f1",
+        "type": "mysql",
+        "z": "6e5c79bcaeebd8b9",
+        "mydb": "891ee435ac193545",
+        "name": "",
+        "x": 430,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    }
+]

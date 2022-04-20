@@ -1,0 +1,21 @@
+###########################
+# UaModeler Project File  #
+# Generated at 23.05.2021 #
+###########################
+
+PROJECTNAME = TestEngineeringUnits
+
+TEMPLATESET = ($TEMPLATES)/modeling/v1_0/t0/modeling.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff
+
+OUTPUTPATH = C:/Users/karaimi
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+

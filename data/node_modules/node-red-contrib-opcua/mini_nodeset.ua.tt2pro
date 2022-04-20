@@ -1,0 +1,28 @@
+###########################
+# UaModeler Project File  #
+# Generated at 23.05.2021 #
+###########################
+
+PROJECTNAME = mini_nodeset.ua
+
+TEMPLATESET = ($TEMPLATES)/modeling/v1_0/t0/modeling.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    mini_nodeset.ua \
+    custom3.ua
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    mini_nodeset.ua: #0000ff\
+    custom3.ua: #0000ff
+
+OUTPUTPATH = C:/Users/karaimi
+
+GENERATE += mini_nodeset.ua \
+    custom3.ua
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+
