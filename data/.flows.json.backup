@@ -1,0 +1,92 @@
+[
+    {
+        "id": "6e5c79bcaeebd8b9",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "891ee435ac193545",
+        "type": "MySQLdatabase",
+        "name": "db_nodered",
+        "host": "db",
+        "port": "3306",
+        "db": "node_red",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "1e87626276b7d1f1",
+        "type": "mysql",
+        "z": "6e5c79bcaeebd8b9",
+        "mydb": "891ee435ac193545",
+        "name": "Database",
+        "x": 420,
+        "y": 60,
+        "wires": [
+            [
+                "43b9a91fdbe7a9c0"
+            ]
+        ]
+    },
+    {
+        "id": "4527524f879a622b",
+        "type": "mysql",
+        "z": "6e5c79bcaeebd8b9",
+        "mydb": "891ee435ac193545",
+        "name": "",
+        "x": 450,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4c9543971d06fa5",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "INSERT into node_red.pump_log(MPRX_DI_dos1_flowrate) VALUES (5);",
+        "payload": "",
+        "payloadType": "str",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "1e87626276b7d1f1"
+            ]
+        ]
+    },
+    {
+        "id": "43b9a91fdbe7a9c0",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "succes",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 60,
+        "wires": []
+    }
+]

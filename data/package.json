@@ -8,6 +8,7 @@
         "node-red-contrib-opcua": "~0.2.274",
         "node-red-contrib-ui-statechart": "~0.1.4",
         "node-red-contrib-ui-timelines-chart": "~0.1.8",
-        "node-red-node-mysql": "~1.0.1"
+        "node-red-node-mysql": "~1.0.1",
+        "node-red-node-ui-table": "~0.3.12"
     }
 }
