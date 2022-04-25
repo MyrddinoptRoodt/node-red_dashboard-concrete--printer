@@ -40,6 +40,350 @@
         "className": ""
     },
     {
+        "id": "6f96a48da2424141",
+        "type": "ui_group",
+        "name": "Testing",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "051a6eb96033b36d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "210d9340d2149b29",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "cc6c1d50506d3f7a",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "210d9340d2149b29",
+        "order": 1,
+        "disp": true,
+        "width": 30
+    },
+    {
+        "id": "7e7c6ea5b3468ae0",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 2,
+        "width": 28,
+        "height": 1
+    },
+    {
+        "id": "4b5c76863faac85d",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 3,
+        "width": 28,
+        "height": 1
+    },
+    {
+        "id": "9823453ff50e7c54",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 5,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "cff0fa23004d128a",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e975c0c5ad6ecb52",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "544b10ce808d897a",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "701c730385370be5",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7000316c8983082a",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e2cf05d5f913215c",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "dab22ff200e42eb7",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7cd82134c95f7c44",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "68827ff19fa03804",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 16,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "e29cf19e11dc357a",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 18,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "182d4ac249e5b1da",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 19,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "f0bd6c9b3dee3e05",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 20,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "161e5eaa15871433",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 21,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "03c117241c47fe8a",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 22,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "51a09cced00fe9de",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 23,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "bd04533528b3cfe1",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 24,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "a4979121601c0f75",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 25,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "e29ea91ea662885b",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 26,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "6c14d8426acddd36",
+        "type": "ui_spacer",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "spacer",
+        "group": "cc6c1d50506d3f7a",
+        "order": 27,
+        "width": 24,
+        "height": 1
+    },
+    {
         "id": "1e87626276b7d1f1",
         "type": "mysql",
         "z": "6e5c79bcaeebd8b9",
@@ -179,45 +523,29 @@
         "wires": []
     },
     {
-        "id": "d234b38640763dd2",
-        "type": "mysql",
-        "z": "6e5c79bcaeebd8b9",
-        "mydb": "891ee435ac193545",
-        "name": "",
-        "x": 1430,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "65c7acd2b6f0f634",
         "type": "function",
         "z": "6e5c79bcaeebd8b9",
         "name": "INSERT statement",
         "func": "msg.topic = \"INSERT INTO 'pump_log' VALUES (\" + msg.payload + \")\";\nreturn msg;",
-        "outputs": 1,
+        "outputs": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1210,
-        "y": 500,
-        "wires": [
-            [
-                "d234b38640763dd2"
-            ]
-        ]
+        "x": 1230,
+        "y": 580,
+        "wires": []
     },
     {
         "id": "6aa048e21014b6fb",
         "type": "ui_template",
         "z": "6e5c79bcaeebd8b9",
-        "group": "408982674b964e24",
+        "group": "cc6c1d50506d3f7a",
         "name": "",
-        "order": 0,
-        "width": "6",
-        "height": "10",
+        "order": 17,
+        "width": 6,
+        "height": 10,
         "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <select ng-model=\"item\" ng-options=\"items.item.displayName.text pr items in msg.playload\">\n        <option value=\"\">       </option>\n    </select>\n</div>\npress to update\n<div layout=\"row\" layout-align=\"space-between\">\n    <button ng-click=\"send({playload: {actiontype: 'browse', root: item}})\">browse</button>\n</div>\n<div layout=\"row\" layout-align=\"space-between\" >\n    <ul>\n        <li ng-repeat=\"items in msg.payload\">\n            {{items.item.displayName.text}}: {{items.item.nodeId}}\n\n        </li>\n    </ul>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -265,10 +593,10 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 8,
+        "width": 14,
+        "height": 8,
         "gtype": "gage",
         "title": "gauge",
         "label": "units",
@@ -292,10 +620,10 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 6,
+        "width": 14,
+        "height": 8,
         "label": "Trend flowrate DOS1",
         "chartType": "line",
         "legend": "false",
@@ -417,10 +745,10 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 28,
+        "width": "14",
+        "height": "8",
         "gtype": "gage",
         "title": "gauge",
         "label": "units",
@@ -444,10 +772,10 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 27,
+        "width": "14",
+        "height": "8",
         "label": "Trend flowrate DOS2",
         "chartType": "line",
         "legend": "false",
@@ -569,10 +897,10 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 30,
+        "width": "14",
+        "height": "8",
         "gtype": "gage",
         "title": "gauge",
         "label": "units",
@@ -596,10 +924,10 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 29,
+        "width": "14",
+        "height": "8",
         "label": "Trend flowrate DOS3",
         "chartType": "line",
         "legend": "false",
@@ -721,10 +1049,10 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 32,
+        "width": "14",
+        "height": "8",
         "gtype": "gage",
         "title": "gauge",
         "label": "units",
@@ -748,10 +1076,10 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "group": "cc6c1d50506d3f7a",
+        "order": 31,
+        "width": "14",
+        "height": "8",
         "label": "Trend flowrate Fog",
         "chartType": "line",
         "legend": "false",
@@ -829,13 +1157,13 @@
         "securitypolicy": "None",
         "folderName4PKI": "",
         "name": "",
-        "x": 400,
-        "y": 1160,
+        "x": 1420,
+        "y": 860,
         "wires": [
             [
                 "19ba632f7b7bf332",
                 "a1f63cafc1b77aaa",
-                "d9b71d488e07d86c"
+                "fec719730c5b6051"
             ]
         ]
     },
@@ -860,8 +1188,8 @@
         "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
-        "y": 1160,
+        "x": 1200,
+        "y": 860,
         "wires": [
             [
                 "c4c5b242135e577c"
@@ -891,8 +1219,8 @@
         "seg1": "",
         "seg2": "",
         "className": "",
-        "x": 710,
-        "y": 1200,
+        "x": 1730,
+        "y": 900,
         "wires": []
     },
     {
@@ -933,8 +1261,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 760,
-        "y": 1160,
+        "x": 1780,
+        "y": 860,
         "wires": [
             []
         ]
@@ -958,8 +1286,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
-        "y": 1120,
+        "x": 1880,
+        "y": 820,
         "wires": [
             []
         ]
@@ -1598,6 +1926,197 @@
         "wires": [
             [
                 "65c7acd2b6f0f634"
+            ]
+        ]
+    },
+    {
+        "id": "fec719730c5b6051",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 1700,
+        "y": 820,
+        "wires": [
+            [
+                "d9b71d488e07d86c"
+            ]
+        ]
+    },
+    {
+        "id": "3493e048f0c0ad61",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "props": [
+            {
+                "p": "reset",
+                "v": "",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1410,
+        "y": 820,
+        "wires": [
+            [
+                "fec719730c5b6051"
+            ]
+        ]
+    },
+    {
+        "id": "6aabdb3ee36f8140",
+        "type": "comment",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "testing",
+        "info": "",
+        "x": 1470,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "5e3a49783daa67bf",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "d79c4274a2b5cc43"
+            ]
+        ]
+    },
+    {
+        "id": "d79c4274a2b5cc43",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "cc6c1d50506d3f7a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 350,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "7007c8913dd858c8",
+        "type": "status",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "connected",
+        "scope": [
+            "4527524f879a622b",
+            "aa7a00e9a58052e0"
+        ],
+        "x": 220,
+        "y": 320,
+        "wires": [
+            [
+                "9ff1825b1e4a40ab"
+            ]
+        ]
+    },
+    {
+        "id": "9ff1825b1e4a40ab",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "cc6c1d50506d3f7a",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 450,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "3aaf2a809e5885a2",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "INSERT into node_red.pump_log(MPRX_DI_dos1_flowrate,Log_datetime) VALUES (5,);",
+        "payloadType": "str",
+        "x": 70,
+        "y": 80,
+        "wires": [
+            [
+                "0cddc3aefec3a6dd"
+            ]
+        ]
+    },
+    {
+        "id": "0cddc3aefec3a6dd",
+        "type": "function",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "func": "var date = new Date().toISOString().slice(0, 19).replace('T', ' ');\nmsg.topic = \"INSERT INTO pump_log(MPRX_DI_dos1_flowrate,Log_datetime) VALUES (\" +10+ \",'\" +date+\"')\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 60,
+        "wires": [
+            [
+                "1e87626276b7d1f1"
             ]
         ]
     }
