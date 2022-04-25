@@ -823,5 +823,24 @@
                 "file": "/data/node_modules/node-red-dashboard/nodes/ui_spacer.js"
             }
         }
+    },
+    "node-red-node-ui-table": {
+        "name": "node-red-node-ui-table",
+        "version": "0.3.12",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_table": {
+                "name": "ui_table",
+                "types": [
+                    "ui_table"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-ui-table",
+                "file": "/data/node_modules/node-red-node-ui-table/node.js"
+            }
+        }
     }
 }

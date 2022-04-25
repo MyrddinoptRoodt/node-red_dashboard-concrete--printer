@@ -18,6 +18,28 @@
         "charset": "UTF8"
     },
     {
+        "id": "1559a8d4092fea69",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://192.168.153.11:48010/",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "408982674b964e24",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "1e87626276b7d1f1",
         "type": "mysql",
         "z": "6e5c79bcaeebd8b9",
@@ -47,6 +69,7 @@
         "id": "d4c9543971d06fa5",
         "type": "inject",
         "z": "6e5c79bcaeebd8b9",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -88,5 +111,1494 @@
         "x": 640,
         "y": 60,
         "wires": []
+    },
+    {
+        "id": "aa7a00e9a58052e0",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 540,
+        "wires": [
+            [
+                "aedbbdbd2971d778",
+                "8f2c3fb9848a1bd1",
+                "6477c9c4718d6be0"
+            ]
+        ]
+    },
+    {
+        "id": "0d44910e52fa3edd",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "aa7a00e9a58052e0"
+            ]
+        ]
+    },
+    {
+        "id": "0b83a39043e57591",
+        "type": "comment",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "example",
+        "info": "",
+        "x": 320,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "d234b38640763dd2",
+        "type": "mysql",
+        "z": "6e5c79bcaeebd8b9",
+        "mydb": "891ee435ac193545",
+        "name": "",
+        "x": 1430,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65c7acd2b6f0f634",
+        "type": "function",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "INSERT statement",
+        "func": "msg.topic = \"INSERT INTO 'pump_log' VALUES (\" + msg.payload + \")\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 500,
+        "wires": [
+            [
+                "d234b38640763dd2"
+            ]
+        ]
+    },
+    {
+        "id": "6aa048e21014b6fb",
+        "type": "ui_template",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "408982674b964e24",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "10",
+        "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <select ng-model=\"item\" ng-options=\"items.item.displayName.text pr items in msg.playload\">\n        <option value=\"\">       </option>\n    </select>\n</div>\npress to update\n<div layout=\"row\" layout-align=\"space-between\">\n    <button ng-click=\"send({playload: {actiontype: 'browse', root: item}})\">browse</button>\n</div>\n<div layout=\"row\" layout-align=\"space-between\" >\n    <ul>\n        <li ng-repeat=\"items in msg.payload\">\n            {{items.item.displayName.text}}: {{items.item.nodeId}}\n\n        </li>\n    </ul>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1000,
+        "y": 260,
+        "wires": [
+            [
+                "902f22bfc9aec097"
+            ]
+        ]
+    },
+    {
+        "id": "902f22bfc9aec097",
+        "type": "OpcUa-Browser",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "item": "",
+        "datatype": "",
+        "topic": "",
+        "items": [],
+        "name": "",
+        "x": 1010,
+        "y": 340,
+        "wires": [
+            [
+                "6aa048e21014b6fb"
+            ]
+        ]
+    },
+    {
+        "id": "d6ac326ec7303d64",
+        "type": "comment",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "OPC-UA browser: can be used to retrieve nodeId's",
+        "info": "",
+        "x": 990,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "aedbbdbd2971d778",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "8f2c3fb9848a1bd1",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6477c9c4718d6be0",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS1_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a900ceae065c9b7e",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 700,
+        "wires": [
+            [
+                "5cd66600513ee0b6",
+                "01e7567b5245cc36",
+                "9b15d59d0e819831"
+            ]
+        ]
+    },
+    {
+        "id": "fe25518775e3aa77",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS2_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS2_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 700,
+        "wires": [
+            [
+                "a900ceae065c9b7e"
+            ]
+        ]
+    },
+    {
+        "id": "5cd66600513ee0b6",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "01e7567b5245cc36",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b15d59d0e819831",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS2_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS2_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "360fc901ae50241b",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 860,
+        "wires": [
+            [
+                "65065cbf41bff1c7",
+                "75b703f363878c59",
+                "ed9ee422c4b6a299"
+            ]
+        ]
+    },
+    {
+        "id": "98efde30d807be8a",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS3_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS3_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 860,
+        "wires": [
+            [
+                "360fc901ae50241b"
+            ]
+        ]
+    },
+    {
+        "id": "65065cbf41bff1c7",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "75b703f363878c59",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS3",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed9ee422c4b6a299",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS3_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS3_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4219cff2fa40217c",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 1000,
+        "wires": [
+            [
+                "ab49d9dd15ad95b8",
+                "0f20c0dcccf0f6f3",
+                "3ef8c9cd590cc0ab"
+            ]
+        ]
+    },
+    {
+        "id": "8ed1e7eb642da054",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_FOG_Flowrate_50Hz_lmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1000,
+        "wires": [
+            [
+                "4219cff2fa40217c"
+            ]
+        ]
+    },
+    {
+        "id": "ab49d9dd15ad95b8",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "0f20c0dcccf0f6f3",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate Fog",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 750,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ef8c9cd590cc0ab",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "FOG_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c4c5b242135e577c",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 1160,
+        "wires": [
+            [
+                "19ba632f7b7bf332",
+                "a1f63cafc1b77aaa",
+                "d9b71d488e07d86c"
+            ]
+        ]
+    },
+    {
+        "id": "d2d5dd7c4122ab68",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1160,
+        "wires": [
+            [
+                "c4c5b242135e577c"
+            ]
+        ]
+    },
+    {
+        "id": "19ba632f7b7bf332",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "a1f63cafc1b77aaa",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9b71d488e07d86c",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS1_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3d54a153bd62201",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 1320,
+        "wires": [
+            [
+                "3bb57862dfea38f0",
+                "95809871c263abc5",
+                "17bb79dae857b657"
+            ]
+        ]
+    },
+    {
+        "id": "cdd8113f9325b86b",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1320,
+        "wires": [
+            [
+                "c3d54a153bd62201"
+            ]
+        ]
+    },
+    {
+        "id": "3bb57862dfea38f0",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "95809871c263abc5",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17bb79dae857b657",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS1_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2839d740734a5cd9",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 1480,
+        "wires": [
+            [
+                "119ef581a44c9a21",
+                "0e47ea67119032e9",
+                "b82fd6519c8a5551"
+            ]
+        ]
+    },
+    {
+        "id": "35151115a6781a23",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1480,
+        "wires": [
+            [
+                "2839d740734a5cd9"
+            ]
+        ]
+    },
+    {
+        "id": "119ef581a44c9a21",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "0e47ea67119032e9",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b82fd6519c8a5551",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS1_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab0f0b4bfe38487b",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 1640,
+        "wires": [
+            [
+                "4818fa103ce8da7a",
+                "98f34c3884ff7dea",
+                "a8d0addb9c77f48b"
+            ]
+        ]
+    },
+    {
+        "id": "c898e954929cd1be",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1640,
+        "wires": [
+            [
+                "ab0f0b4bfe38487b"
+            ]
+        ]
+    },
+    {
+        "id": "4818fa103ce8da7a",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "98f34c3884ff7dea",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8d0addb9c77f48b",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS1_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "154382c044ac710a",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 400,
+        "y": 1800,
+        "wires": [
+            [
+                "2deec38ea1e2685a",
+                "3e3007346827f1e8",
+                "8bd3e42684d263cb"
+            ]
+        ]
+    },
+    {
+        "id": "c7257a857f5c19a3",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1800,
+        "wires": [
+            [
+                "154382c044ac710a"
+            ]
+        ]
+    },
+    {
+        "id": "2deec38ea1e2685a",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "3e3007346827f1e8",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "408982674b964e24",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Trend flowrate DOS1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8bd3e42684d263cb",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Flowrate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DOS1_Flowrate",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f224233fc7f96658",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "time",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1010,
+        "y": 480,
+        "wires": [
+            [
+                "65c7acd2b6f0f634"
+            ]
+        ]
     }
 ]

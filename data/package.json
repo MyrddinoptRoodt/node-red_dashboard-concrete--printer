@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "node-red-contrib-average": "~0.1.7",
         "node-red-contrib-chartjs": "~0.5.2",
         "node-red-contrib-opcua": "~0.2.274",
         "node-red-contrib-ui-statechart": "~0.1.4",
