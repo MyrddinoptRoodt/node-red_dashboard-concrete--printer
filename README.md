@@ -13,3 +13,9 @@ This will be used during development, after deployment this repo will become ina
 * docker-compose up
 * go to the page at: https://127.0.0.1:1880/#flow to edit nodes
 * go to the page https://127.0.0.1:1880/ui/ to view the dashboard 
+
+### Server Settings
+name: TMITF
+username: itf
+hostname: tm
+password: moreITF
