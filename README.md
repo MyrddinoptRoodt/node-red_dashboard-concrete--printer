@@ -15,7 +15,7 @@ This will be used during development, after deployment this repo will become ina
 * go to the page https://127.0.0.1:1880/ui/ to view the dashboard 
 
 ### Server Settings
-name: TMITF
-username: itf
-hostname: tm
-password: moreITF
+* name: TMITF
+* username: itf
+* hostname: tm
+* password: moreITF
