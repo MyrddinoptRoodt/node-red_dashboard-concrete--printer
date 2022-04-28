@@ -159,7 +159,7 @@
         "id": "210d9340d2149b29",
         "type": "ui_tab",
         "name": "Tab 1",
-        "icon": "test",
+        "icon": "fa-camera",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -1085,31 +1085,11 @@
         "height": 1
     },
     {
-        "id": "f7e6a616d62b15b5",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "210d9340d2149b29",
-        "order": 1,
-        "disp": true,
-        "width": 30,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "7d448665d2758968",
-        "type": "ui_group",
-        "name": "Group 2",
-        "tab": "210d9340d2149b29",
-        "order": 2,
-        "disp": true,
-        "width": 30
-    },
-    {
         "id": "26f4d8d1a3b9bc43",
         "type": "ui_spacer",
         "z": "6e5c79bcaeebd8b9",
         "name": "spacer",
-        "group": "f7e6a616d62b15b5",
+        "group": "",
         "order": 2,
         "width": 30,
         "height": 1
@@ -1140,6 +1120,192 @@
         "order": 2,
         "disp": true,
         "width": 30
+    },
+    {
+        "id": "5596c1d6d25d7e5a",
+        "type": "ui_group",
+        "name": "Group_1",
+        "tab": "210d9340d2149b29",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ef6c4b8ee7c36c71",
+        "type": "ui_group",
+        "name": "Group_2",
+        "tab": "210d9340d2149b29",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fa2bc04d26c647aa",
+        "type": "ui_group",
+        "name": "Group_3",
+        "tab": "210d9340d2149b29",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5c0f801ee0a6ff1d",
+        "type": "ui_group",
+        "name": "Group 4",
+        "tab": "210d9340d2149b29",
+        "order": 4,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "9861ddfc8b018853",
+        "type": "ui_group",
+        "name": "Group 5",
+        "tab": "210d9340d2149b29",
+        "order": 5,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "24a601d4c4711127",
+        "type": "ui_group",
+        "name": "Group 6",
+        "tab": "210d9340d2149b29",
+        "order": 6,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "8d7a76fa7bd4833f",
+        "type": "ui_group",
+        "name": "Group 7",
+        "tab": "210d9340d2149b29",
+        "order": 7,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "bdce10dfabaa9353",
+        "type": "ui_group",
+        "name": "Group 8",
+        "tab": "210d9340d2149b29",
+        "order": 8,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "0b4c5bb3124e3e33",
+        "type": "ui_group",
+        "name": "Group 9",
+        "tab": "210d9340d2149b29",
+        "order": 9,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "8b89319fd396ecb0",
+        "type": "ui_group",
+        "name": "Group 10",
+        "tab": "210d9340d2149b29",
+        "order": 10,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "c48896fa4fe69244",
+        "type": "ui_group",
+        "name": "Group 11",
+        "tab": "210d9340d2149b29",
+        "order": 11,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "f29377911f47865d",
+        "type": "ui_group",
+        "name": "Group 12",
+        "tab": "210d9340d2149b29",
+        "order": 12,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "f9f9d8fbb0abdb45",
+        "type": "ui_group",
+        "name": "Group 13",
+        "tab": "210d9340d2149b29",
+        "order": 13,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "fdbbfe1838ebbb91",
+        "type": "ui_group",
+        "name": "Group 14",
+        "tab": "210d9340d2149b29",
+        "order": 14,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "34c42d13875adb5d",
+        "type": "ui_group",
+        "name": "Group 15",
+        "tab": "210d9340d2149b29",
+        "order": 15,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "1c2cc3d1da3f1e8f",
+        "type": "ui_group",
+        "name": "Group 16",
+        "tab": "210d9340d2149b29",
+        "order": 16,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "41ea2da58f385b0d",
+        "type": "ui_group",
+        "name": "Group 17",
+        "tab": "210d9340d2149b29",
+        "order": 17,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "d56aeb000197f300",
+        "type": "ui_group",
+        "name": "Group 18",
+        "tab": "210d9340d2149b29",
+        "order": 18,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "db5893c5c7c4bb11",
+        "type": "ui_group",
+        "name": "Group 19",
+        "tab": "210d9340d2149b29",
+        "order": 19,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "c57ae131402f1801",
+        "type": "ui_group",
+        "name": "Group 20",
+        "tab": "210d9340d2149b29",
+        "order": 20,
+        "disp": true,
+        "width": 6
     },
     {
         "id": "1e87626276b7d1f1",
@@ -1236,7 +1402,8 @@
         "y": 640,
         "wires": [
             [
-                "aa7a00e9a58052e0"
+                "aa7a00e9a58052e0",
+                "4d41da493e3c9921"
             ]
         ]
     },
@@ -1321,10 +1488,10 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "",
+        "group": "5596c1d6d25d7e5a",
         "order": 51,
-        "width": 14,
-        "height": 8,
+        "width": "0",
+        "height": "0",
         "gtype": "gage",
         "title": "gauge",
         "label": "units",
@@ -1348,14 +1515,14 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "",
+        "group": "5596c1d6d25d7e5a",
         "order": 36,
-        "width": 14,
-        "height": 8,
+        "width": "0",
+        "height": "0",
         "label": "Trend flowrate DOS1",
         "chartType": "line",
         "legend": "false",
-        "xformat": "HH:mm:ss",
+        "xformat": "auto",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
@@ -1363,7 +1530,7 @@
         "ymax": "",
         "removeOlder": 1,
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -1383,462 +1550,6 @@
         "className": "",
         "x": 800,
         "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a900ceae065c9b7e",
-        "type": "OpcUa-Client",
-        "z": "6e5c79bcaeebd8b9",
-        "endpoint": "1559a8d4092fea69",
-        "action": "subscribe",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "200",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "folderName4PKI": "",
-        "name": "",
-        "x": 440,
-        "y": 960,
-        "wires": [
-            [
-                "5cd66600513ee0b6",
-                "01e7567b5245cc36",
-                "9b15d59d0e819831"
-            ]
-        ]
-    },
-    {
-        "id": "fe25518775e3aa77",
-        "type": "inject",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS2_Flowrate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS2_Flowrate_50Hz_mlmin_l",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 960,
-        "wires": [
-            [
-                "a900ceae065c9b7e"
-            ]
-        ]
-    },
-    {
-        "id": "5cd66600513ee0b6",
-        "type": "ui_gauge",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "",
-        "order": 61,
-        "width": 14,
-        "height": 8,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{' %.1f'|sprintf:value}} l/min",
-        "min": 0,
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 750,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "01e7567b5245cc36",
-        "type": "ui_chart",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "",
-        "order": 50,
-        "width": 14,
-        "height": 8,
-        "label": "Trend flowrate DOS2",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 800,
-        "y": 960,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9b15d59d0e819831",
-        "type": "change",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS2_Flowrate",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "DOS2_Flowrate",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "360fc901ae50241b",
-        "type": "OpcUa-Client",
-        "z": "6e5c79bcaeebd8b9",
-        "endpoint": "1559a8d4092fea69",
-        "action": "subscribe",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "200",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "folderName4PKI": "",
-        "name": "",
-        "x": 440,
-        "y": 1120,
-        "wires": [
-            [
-                "65065cbf41bff1c7",
-                "75b703f363878c59",
-                "ed9ee422c4b6a299"
-            ]
-        ]
-    },
-    {
-        "id": "98efde30d807be8a",
-        "type": "inject",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS3_Flowrate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "0.1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS3_Flowrate_50Hz_mlmin_l",
-        "payload": "",
-        "payloadType": "date",
-        "x": 230,
-        "y": 1120,
-        "wires": [
-            [
-                "360fc901ae50241b"
-            ]
-        ]
-    },
-    {
-        "id": "65065cbf41bff1c7",
-        "type": "ui_gauge",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "",
-        "order": 71,
-        "width": 14,
-        "height": 8,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{' %.1f'|sprintf:value}} l/min",
-        "min": 0,
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 750,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "75b703f363878c59",
-        "type": "ui_chart",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "",
-        "order": 60,
-        "width": 14,
-        "height": 8,
-        "label": "Trend flowrate DOS3",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 800,
-        "y": 1120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ed9ee422c4b6a299",
-        "type": "change",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS3_Flowrate",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "DOS3_Flowrate",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 1080,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4219cff2fa40217c",
-        "type": "OpcUa-Client",
-        "z": "6e5c79bcaeebd8b9",
-        "endpoint": "1559a8d4092fea69",
-        "action": "subscribe",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "200",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "folderName4PKI": "",
-        "name": "",
-        "x": 440,
-        "y": 1260,
-        "wires": [
-            [
-                "ab49d9dd15ad95b8",
-                "0f20c0dcccf0f6f3",
-                "3ef8c9cd590cc0ab"
-            ]
-        ]
-    },
-    {
-        "id": "8ed1e7eb642da054",
-        "type": "inject",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "FOG_Flowrate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "ns=2;s=Tags.GECO/MPRX_FOG_Flowrate_50Hz_lmin_l",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 1260,
-        "wires": [
-            [
-                "4219cff2fa40217c"
-            ]
-        ]
-    },
-    {
-        "id": "ab49d9dd15ad95b8",
-        "type": "ui_gauge",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "",
-        "order": 81,
-        "width": 14,
-        "height": 8,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{' %.1f'|sprintf:value}} l/min",
-        "min": 0,
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 750,
-        "y": 1300,
-        "wires": []
-    },
-    {
-        "id": "0f20c0dcccf0f6f3",
-        "type": "ui_chart",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "",
-        "order": 70,
-        "width": 14,
-        "height": 8,
-        "label": "Trend flowrate Fog",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 790,
-        "y": 1260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3ef8c9cd590cc0ab",
-        "type": "change",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "FOG_Flowrate",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "FOG_Flowrate",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 1220,
         "wires": [
             []
         ]
@@ -1991,614 +1702,6 @@
         "reg": false,
         "x": 1880,
         "y": 820,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c3d54a153bd62201",
-        "type": "OpcUa-Client",
-        "z": "6e5c79bcaeebd8b9",
-        "endpoint": "1559a8d4092fea69",
-        "action": "subscribe",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "200",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "folderName4PKI": "",
-        "name": "",
-        "x": 480,
-        "y": 1960,
-        "wires": [
-            [
-                "3bb57862dfea38f0",
-                "95809871c263abc5",
-                "17bb79dae857b657"
-            ]
-        ]
-    },
-    {
-        "id": "cdd8113f9325b86b",
-        "type": "inject",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 1960,
-        "wires": [
-            [
-                "c3d54a153bd62201"
-            ]
-        ]
-    },
-    {
-        "id": "3bb57862dfea38f0",
-        "type": "ui_gauge",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{' %.1f'|sprintf:value}} l/min",
-        "min": 0,
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 790,
-        "y": 2000,
-        "wires": []
-    },
-    {
-        "id": "95809871c263abc5",
-        "type": "ui_chart",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "label": "Trend flowrate DOS1",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 840,
-        "y": 1960,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "17bb79dae857b657",
-        "type": "change",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "DOS1_Flowrate",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 1920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2839d740734a5cd9",
-        "type": "OpcUa-Client",
-        "z": "6e5c79bcaeebd8b9",
-        "endpoint": "1559a8d4092fea69",
-        "action": "subscribe",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "200",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "folderName4PKI": "",
-        "name": "",
-        "x": 480,
-        "y": 2120,
-        "wires": [
-            [
-                "119ef581a44c9a21",
-                "0e47ea67119032e9",
-                "b82fd6519c8a5551"
-            ]
-        ]
-    },
-    {
-        "id": "35151115a6781a23",
-        "type": "inject",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 2120,
-        "wires": [
-            [
-                "2839d740734a5cd9"
-            ]
-        ]
-    },
-    {
-        "id": "119ef581a44c9a21",
-        "type": "ui_gauge",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{' %.1f'|sprintf:value}} l/min",
-        "min": 0,
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 790,
-        "y": 2160,
-        "wires": []
-    },
-    {
-        "id": "0e47ea67119032e9",
-        "type": "ui_chart",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "label": "Trend flowrate DOS1",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 840,
-        "y": 2120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b82fd6519c8a5551",
-        "type": "change",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "DOS1_Flowrate",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 2080,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ab0f0b4bfe38487b",
-        "type": "OpcUa-Client",
-        "z": "6e5c79bcaeebd8b9",
-        "endpoint": "1559a8d4092fea69",
-        "action": "subscribe",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "200",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "folderName4PKI": "",
-        "name": "",
-        "x": 480,
-        "y": 2280,
-        "wires": [
-            [
-                "4818fa103ce8da7a",
-                "98f34c3884ff7dea",
-                "a8d0addb9c77f48b"
-            ]
-        ]
-    },
-    {
-        "id": "c898e954929cd1be",
-        "type": "inject",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 2280,
-        "wires": [
-            [
-                "ab0f0b4bfe38487b"
-            ]
-        ]
-    },
-    {
-        "id": "4818fa103ce8da7a",
-        "type": "ui_gauge",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{' %.1f'|sprintf:value}} l/min",
-        "min": 0,
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 790,
-        "y": 2320,
-        "wires": []
-    },
-    {
-        "id": "98f34c3884ff7dea",
-        "type": "ui_chart",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "label": "Trend flowrate DOS1",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 840,
-        "y": 2280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a8d0addb9c77f48b",
-        "type": "change",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "DOS1_Flowrate",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 2240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "154382c044ac710a",
-        "type": "OpcUa-Client",
-        "z": "6e5c79bcaeebd8b9",
-        "endpoint": "1559a8d4092fea69",
-        "action": "subscribe",
-        "deadbandtype": "a",
-        "deadbandvalue": 1,
-        "time": "200",
-        "timeUnit": "ms",
-        "certificate": "n",
-        "localfile": "",
-        "localkeyfile": "",
-        "securitymode": "None",
-        "securitypolicy": "None",
-        "folderName4PKI": "",
-        "name": "",
-        "x": 480,
-        "y": 2440,
-        "wires": [
-            [
-                "2deec38ea1e2685a",
-                "3e3007346827f1e8",
-                "8bd3e42684d263cb"
-            ]
-        ]
-    },
-    {
-        "id": "c7257a857f5c19a3",
-        "type": "inject",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS1_Flowrate_50Hz_mlmin_l",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 2440,
-        "wires": [
-            [
-                "154382c044ac710a"
-            ]
-        ]
-    },
-    {
-        "id": "2deec38ea1e2685a",
-        "type": "ui_gauge",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{' %.1f'|sprintf:value}} l/min",
-        "min": 0,
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 790,
-        "y": 2480,
-        "wires": []
-    },
-    {
-        "id": "3e3007346827f1e8",
-        "type": "ui_chart",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "group": "408982674b964e24",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "label": "Trend flowrate DOS1",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 840,
-        "y": 2440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8bd3e42684d263cb",
-        "type": "change",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "DOS1_Flowrate",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "DOS1_Flowrate",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 2400,
         "wires": [
             []
         ]
@@ -2835,7 +1938,7 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "live",
-        "group": "7d448665d2758968",
+        "group": "",
         "order": 1,
         "width": 0,
         "height": 0,
@@ -2862,7 +1965,7 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "7d448665d2758968",
+        "group": "",
         "order": 2,
         "width": 0,
         "height": 0,
@@ -3045,7 +2148,7 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "average",
-        "group": "f7e6a616d62b15b5",
+        "group": "",
         "order": 1,
         "width": 0,
         "height": 0,
@@ -3107,7 +2210,7 @@
         "id": "a8b9c9734182e710",
         "type": "ui_text",
         "z": "6e5c79bcaeebd8b9",
-        "group": "f7e6a616d62b15b5",
+        "group": "",
         "order": 3,
         "width": 0,
         "height": 0,
@@ -3180,7 +2283,7 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "7d448665d2758968",
+        "group": "",
         "order": 3,
         "width": 0,
         "height": 0,
@@ -3234,32 +2337,6 @@
         "x": 2070,
         "y": 1300,
         "wires": []
-    },
-    {
-        "id": "1585c01f510aeff0",
-        "type": "join",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "mode": "custom",
-        "build": "array",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1350,
-        "y": 1740,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "44956a0a84530463",
@@ -3365,7 +2442,7 @@
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "7d448665d2758968",
+        "group": "",
         "order": 3,
         "width": 0,
         "height": 0,
@@ -3449,7 +2526,7 @@
         "id": "68ab4623d488a125",
         "type": "inject",
         "z": "6e5c79bcaeebd8b9",
-        "name": "okees",
+        "name": "reset timer",
         "props": [
             {
                 "p": "reset",
@@ -3471,7 +2548,7 @@
         "topic": "5",
         "payload": "reset",
         "payloadType": "msg",
-        "x": 220,
+        "x": 230,
         "y": 580,
         "wires": [
             [
@@ -3490,9 +2567,9 @@
         "y": 580,
         "wires": [
             [
-                "0c8f8cd1f81ab1f7",
                 "ca6c0def25c0a5fc",
-                "1398283b145a3b4f"
+                "1398283b145a3b4f",
+                "4ee6b04d9351c3ca"
             ]
         ]
     },
@@ -3530,7 +2607,7 @@
         "type": "ui_chart",
         "z": "6e5c79bcaeebd8b9",
         "name": "average",
-        "group": "f7e6a616d62b15b5",
+        "group": "",
         "order": 1,
         "width": 0,
         "height": 0,
@@ -3592,7 +2669,7 @@
         "id": "a90595a333f73258",
         "type": "ui_text",
         "z": "6e5c79bcaeebd8b9",
-        "group": "f7e6a616d62b15b5",
+        "group": "",
         "order": 3,
         "width": 0,
         "height": 0,
@@ -3606,47 +2683,11 @@
         "wires": []
     },
     {
-        "id": "0af2396185741d47",
-        "type": "debug",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "0c8f8cd1f81ab1f7",
-        "type": "function",
-        "z": "6e5c79bcaeebd8b9",
-        "name": "",
-        "func": "global.set(\"oke\",mgs.payload);\nmsg.payload = msg.payload.value;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 880,
-        "y": 600,
-        "wires": [
-            [
-                "0af2396185741d47"
-            ]
-        ]
-    },
-    {
         "id": "ca6c0def25c0a5fc",
         "type": "ui_gauge",
         "z": "6e5c79bcaeebd8b9",
         "name": "",
-        "group": "7d448665d2758968",
+        "group": "5596c1d6d25d7e5a",
         "order": 3,
         "width": 0,
         "height": 0,
@@ -3754,5 +2795,4701 @@
                 "ee31f40db9a5ecfd"
             ]
         ]
+    },
+    {
+        "id": "4ee6b04d9351c3ca",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "5596c1d6d25d7e5a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e3171f7be23cf5b",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 840,
+        "wires": [
+            [
+                "70337c7fe19a1758",
+                "3859dce17ccb4a6a",
+                "115460f366369c06"
+            ]
+        ]
+    },
+    {
+        "id": "8fc723bc7459096d",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS2_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": " ns=2;s=Tags.GECO/MPRX_DI_DOS2_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 840,
+        "wires": [
+            [
+                "9e3171f7be23cf5b",
+                "19dd34e7dd62f58c"
+            ]
+        ]
+    },
+    {
+        "id": "70337c7fe19a1758",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "ef6c4b8ee7c36c71",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "3859dce17ccb4a6a",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "ef6c4b8ee7c36c71",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "Trend flowrate DOS2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 800,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "209150986830a15c",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 780,
+        "wires": [
+            [
+                "115460f366369c06",
+                "9f48aa54c61979c7"
+            ]
+        ]
+    },
+    {
+        "id": "115460f366369c06",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 780,
+        "wires": [
+            [
+                "2206776f38a31fe8",
+                "723b086faa4f33a8",
+                "321017a5a85a7c8d"
+            ]
+        ]
+    },
+    {
+        "id": "2206776f38a31fe8",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "ef6c4b8ee7c36c71",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "9f48aa54c61979c7",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "723b086faa4f33a8",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "321017a5a85a7c8d",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "ef6c4b8ee7c36c71",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "16d14af1ad7a464f",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 1040,
+        "wires": [
+            [
+                "ba2fb13a2857ff4d",
+                "aa0d35781fc0b82c",
+                "5c7d46816d9bfe60"
+            ]
+        ]
+    },
+    {
+        "id": "ad226bccc3bad74b",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS3_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_DOS3_Flowrate_50Hz_mlmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 1040,
+        "wires": [
+            [
+                "16d14af1ad7a464f",
+                "bacd150702fb278e"
+            ]
+        ]
+    },
+    {
+        "id": "ba2fb13a2857ff4d",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fa2bc04d26c647aa",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "aa0d35781fc0b82c",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fa2bc04d26c647aa",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "Trend flowrate DOS3",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 800,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99804122377f0afc",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 980,
+        "wires": [
+            [
+                "5c7d46816d9bfe60",
+                "f828f9222888d11e"
+            ]
+        ]
+    },
+    {
+        "id": "5c7d46816d9bfe60",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 980,
+        "wires": [
+            [
+                "17e416a98ea6e6f1",
+                "cc8277736d3ec6b7",
+                "55037ce489e07bfa"
+            ]
+        ]
+    },
+    {
+        "id": "17e416a98ea6e6f1",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fa2bc04d26c647aa",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "f828f9222888d11e",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "cc8277736d3ec6b7",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55037ce489e07bfa",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fa2bc04d26c647aa",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19dd34e7dd62f58c",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "ef6c4b8ee7c36c71",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "4d41da493e3c9921",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "5596c1d6d25d7e5a",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "bacd150702fb278e",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "fa2bc04d26c647aa",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "17071bb3019530fd",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 1240,
+        "wires": [
+            [
+                "a1eef7f15a4c778c",
+                "cc10e7797a1b890d",
+                "19efbe8feb4e9923"
+            ]
+        ]
+    },
+    {
+        "id": "47d04b9223fce3e2",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_Flowrate",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_FOG_Flowrate_50Hz_lmin_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 1240,
+        "wires": [
+            [
+                "17071bb3019530fd",
+                "dca51e65a8dff7d2"
+            ]
+        ]
+    },
+    {
+        "id": "a1eef7f15a4c778c",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "5c0f801ee0a6ff1d",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "cc10e7797a1b890d",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "5c0f801ee0a6ff1d",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "Trend flowrate FOG_flowrate",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 820,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75529c514fdaeb0a",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 1180,
+        "wires": [
+            [
+                "19efbe8feb4e9923",
+                "273ad0029f40ee3c"
+            ]
+        ]
+    },
+    {
+        "id": "19efbe8feb4e9923",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 1180,
+        "wires": [
+            [
+                "93951332dc834824",
+                "c1188094fdbda773",
+                "4bcfb7878ad52ff9"
+            ]
+        ]
+    },
+    {
+        "id": "93951332dc834824",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "5c0f801ee0a6ff1d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "273ad0029f40ee3c",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "c1188094fdbda773",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4bcfb7878ad52ff9",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "5c0f801ee0a6ff1d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b138ac9b09d8b9ab",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 1440,
+        "wires": [
+            [
+                "379541500999ed4d",
+                "c1901f1d3329f1d5",
+                "c725a653dce0272b"
+            ]
+        ]
+    },
+    {
+        "id": "591e1b65c994c57d",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_Foam_Air_Factor",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_FOG_Foam_Air_Factor_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 1440,
+        "wires": [
+            [
+                "b138ac9b09d8b9ab",
+                "e835617296094ed4"
+            ]
+        ]
+    },
+    {
+        "id": "379541500999ed4d",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "9861ddfc8b018853",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "c1901f1d3329f1d5",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "9861ddfc8b018853",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "FOG_Foam_Air_Factor",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 810,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f21e8201226a627c",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 1380,
+        "wires": [
+            [
+                "c725a653dce0272b",
+                "ca65b0b937f1895f"
+            ]
+        ]
+    },
+    {
+        "id": "c725a653dce0272b",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 1380,
+        "wires": [
+            [
+                "3b8f7fe675ff1b89",
+                "dbc01a69352f336c",
+                "5250969f59fb224f"
+            ]
+        ]
+    },
+    {
+        "id": "3b8f7fe675ff1b89",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "9861ddfc8b018853",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "ca65b0b937f1895f",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "dbc01a69352f336c",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5250969f59fb224f",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "9861ddfc8b018853",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "559874df425f808e",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 1640,
+        "wires": [
+            [
+                "7aee9111ae313ddf",
+                "418bb9e90b51d2b7",
+                "bb1570c90b96b205"
+            ]
+        ]
+    },
+    {
+        "id": "02d07bb23027131f",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_Foam_Density",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_FOG_Foam_Density_gl_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 1640,
+        "wires": [
+            [
+                "559874df425f808e",
+                "9143e69953f7569e"
+            ]
+        ]
+    },
+    {
+        "id": "7aee9111ae313ddf",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "24a601d4c4711127",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "418bb9e90b51d2b7",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "24a601d4c4711127",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "FOG_Foam_Density",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 800,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4f4724e2c858b1f",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 1580,
+        "wires": [
+            [
+                "bb1570c90b96b205",
+                "2a0308d3dff0d388"
+            ]
+        ]
+    },
+    {
+        "id": "bb1570c90b96b205",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 1580,
+        "wires": [
+            [
+                "5e1e77a861a82894",
+                "d5a0e6ea56882f80",
+                "71a92f57051e1d2f"
+            ]
+        ]
+    },
+    {
+        "id": "5e1e77a861a82894",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "24a601d4c4711127",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "2a0308d3dff0d388",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "d5a0e6ea56882f80",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71a92f57051e1d2f",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "24a601d4c4711127",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e835617296094ed4",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "9861ddfc8b018853",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "dca51e65a8dff7d2",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "5c0f801ee0a6ff1d",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "9143e69953f7569e",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "24a601d4c4711127",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "941025cca0d60941",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 1840,
+        "wires": [
+            [
+                "514d860b7004a77c",
+                "4a4120a7ad5629a5",
+                "9781bae207a56a6f"
+            ]
+        ]
+    },
+    {
+        "id": "24c72e4c8a24208a",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_Foam_Loss",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_FOG_Foam_Loss_factor_pct_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 1840,
+        "wires": [
+            [
+                "941025cca0d60941",
+                "6a72032ae3a8de53"
+            ]
+        ]
+    },
+    {
+        "id": "514d860b7004a77c",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8d7a76fa7bd4833f",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "4a4120a7ad5629a5",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8d7a76fa7bd4833f",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "FOG_Foam_Loss",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 790,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59d72b90556ef3b7",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 1780,
+        "wires": [
+            [
+                "9781bae207a56a6f",
+                "fba3b1822c9b7a29"
+            ]
+        ]
+    },
+    {
+        "id": "9781bae207a56a6f",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 1780,
+        "wires": [
+            [
+                "256bbd2d0838594e",
+                "007ba98fe1b94ce7",
+                "593fe8c5ac153721"
+            ]
+        ]
+    },
+    {
+        "id": "256bbd2d0838594e",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8d7a76fa7bd4833f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "fba3b1822c9b7a29",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "007ba98fe1b94ce7",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "593fe8c5ac153721",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8d7a76fa7bd4833f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1479e9a1b1bf1106",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 2040,
+        "wires": [
+            [
+                "d5cfbfdf25597d35",
+                "fdedd5f1030e109d",
+                "951b2de1a11b8863"
+            ]
+        ]
+    },
+    {
+        "id": "b6355de3e579b8e2",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "OG_Foamingagent",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_FOG_Foamingagent_pct_R",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 2040,
+        "wires": [
+            [
+                "1479e9a1b1bf1106",
+                "426ff4e5b8889d5c"
+            ]
+        ]
+    },
+    {
+        "id": "d5cfbfdf25597d35",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "bdce10dfabaa9353",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "fdedd5f1030e109d",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "bdce10dfabaa9353",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "FOG_Foamingagent",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 800,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e8e7ded05a71a62",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 1980,
+        "wires": [
+            [
+                "951b2de1a11b8863",
+                "a6fcb70632738c48"
+            ]
+        ]
+    },
+    {
+        "id": "951b2de1a11b8863",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 1980,
+        "wires": [
+            [
+                "4f2d30afb5cfc163",
+                "104480592732f229",
+                "b0ddda69ebe5fdc7"
+            ]
+        ]
+    },
+    {
+        "id": "4f2d30afb5cfc163",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "bdce10dfabaa9353",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "a6fcb70632738c48",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "104480592732f229",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0ddda69ebe5fdc7",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "bdce10dfabaa9353",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 2000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f4fc8e916e293e4",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 2240,
+        "wires": [
+            [
+                "c75867087c064755",
+                "4877f52f60ef4d10",
+                "f6a859c4c4e8ae6e"
+            ]
+        ]
+    },
+    {
+        "id": "e0aca5945df1fa31",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_RESERVED_Foamingagent",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_FOG_RESERVED_Foamingagent_cpct_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 2240,
+        "wires": [
+            [
+                "1f4fc8e916e293e4",
+                "89b70849e96e1981"
+            ]
+        ]
+    },
+    {
+        "id": "c75867087c064755",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "0b4c5bb3124e3e33",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "4877f52f60ef4d10",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "0b4c5bb3124e3e33",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "FOG_RESERVED_Foamingagent",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 840,
+        "y": 2240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8357b93e4d6c2e7",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 2180,
+        "wires": [
+            [
+                "f6a859c4c4e8ae6e",
+                "c44160e3614b985a"
+            ]
+        ]
+    },
+    {
+        "id": "f6a859c4c4e8ae6e",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 2180,
+        "wires": [
+            [
+                "365aa9d54cb6e342",
+                "e36a77b7062d3e95",
+                "852305e9d3812e9e"
+            ]
+        ]
+    },
+    {
+        "id": "365aa9d54cb6e342",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "0b4c5bb3124e3e33",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "c44160e3614b985a",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "e36a77b7062d3e95",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "852305e9d3812e9e",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "0b4c5bb3124e3e33",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "426ff4e5b8889d5c",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "bdce10dfabaa9353",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "6a72032ae3a8de53",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "8d7a76fa7bd4833f",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "89b70849e96e1981",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "0b4c5bb3124e3e33",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "8e8a58825c7cf3da",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 2440,
+        "wires": [
+            [
+                "f87448ca45355850",
+                "8a370436e987ce67",
+                "818b38eab1066da0"
+            ]
+        ]
+    },
+    {
+        "id": "6deb7f20910674b2",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "MIX_Speed",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_MIX_Speed_Hz_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 2440,
+        "wires": [
+            [
+                "8e8a58825c7cf3da",
+                "152e96ff30ebedbb"
+            ]
+        ]
+    },
+    {
+        "id": "f87448ca45355850",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8b89319fd396ecb0",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "8a370436e987ce67",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8b89319fd396ecb0",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "MIX_Speed",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 2440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c1770dd90243560",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 2380,
+        "wires": [
+            [
+                "818b38eab1066da0",
+                "102021602897f9bc"
+            ]
+        ]
+    },
+    {
+        "id": "818b38eab1066da0",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 2380,
+        "wires": [
+            [
+                "6d0bb5831351c0b3",
+                "d896c3a6829af84c",
+                "e672475e4769953a"
+            ]
+        ]
+    },
+    {
+        "id": "6d0bb5831351c0b3",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8b89319fd396ecb0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "102021602897f9bc",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "d896c3a6829af84c",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 2320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e672475e4769953a",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "8b89319fd396ecb0",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 2400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0503ec9a626c3530",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 2640,
+        "wires": [
+            [
+                "b375ab3be340f7da",
+                "984a7f7baa34284c",
+                "196eeb47455bd982"
+            ]
+        ]
+    },
+    {
+        "id": "5dc8b32fe990ab34",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "Mixer_Disabled",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_Mixer_Disabled",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 2640,
+        "wires": [
+            [
+                "0503ec9a626c3530",
+                "be0728f95140df99"
+            ]
+        ]
+    },
+    {
+        "id": "b375ab3be340f7da",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "c48896fa4fe69244",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "984a7f7baa34284c",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "c48896fa4fe69244",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "Mixer_Disabled",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 780,
+        "y": 2640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98a1362099105143",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 2580,
+        "wires": [
+            [
+                "196eeb47455bd982",
+                "b653b48bfec7b97e"
+            ]
+        ]
+    },
+    {
+        "id": "196eeb47455bd982",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 2580,
+        "wires": [
+            [
+                "0beed5591e5e1615",
+                "e115b5bf750584d8",
+                "516dad3d19a5a144"
+            ]
+        ]
+    },
+    {
+        "id": "0beed5591e5e1615",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "c48896fa4fe69244",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "b653b48bfec7b97e",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "e115b5bf750584d8",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 2520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "516dad3d19a5a144",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "c48896fa4fe69244",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 2600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2c730d3fa0ca614",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 2840,
+        "wires": [
+            [
+                "3fa162a16d4e3a9e",
+                "26cd61551cf7907e",
+                "c5e3bd49a3565ed1"
+            ]
+        ]
+    },
+    {
+        "id": "e66b17ced74ab31e",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "Water_Flowrate_Set",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_DI_Water_Flowrate_Set_lh_l",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 2840,
+        "wires": [
+            [
+                "e2c730d3fa0ca614",
+                "348d99e9ac1c1b44"
+            ]
+        ]
+    },
+    {
+        "id": "3fa162a16d4e3a9e",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f29377911f47865d",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "26cd61551cf7907e",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f29377911f47865d",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "Water_Flowrate_Set",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 800,
+        "y": 2840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "856692fc724d1e58",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 2780,
+        "wires": [
+            [
+                "c5e3bd49a3565ed1",
+                "e4264d89a6dc3ddd"
+            ]
+        ]
+    },
+    {
+        "id": "c5e3bd49a3565ed1",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 2780,
+        "wires": [
+            [
+                "55f91fd214c7b755",
+                "8525a28f8853578e",
+                "95c2ca8161ab5057"
+            ]
+        ]
+    },
+    {
+        "id": "55f91fd214c7b755",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f29377911f47865d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "e4264d89a6dc3ddd",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "8525a28f8853578e",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 2720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95c2ca8161ab5057",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f29377911f47865d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 2800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be0728f95140df99",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "c48896fa4fe69244",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "152e96ff30ebedbb",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "8b89319fd396ecb0",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "348d99e9ac1c1b44",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "f29377911f47865d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "56f66776552ae825",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 3040,
+        "wires": [
+            [
+                "a818a22eae55bfd4",
+                "44f2e3869bb76423",
+                "ac7d283afc0d6cea"
+            ]
+        ]
+    },
+    {
+        "id": "070c8206ebb8bb5b",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS1_Run",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_EXT_DOS1_Run",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 3040,
+        "wires": [
+            [
+                "56f66776552ae825",
+                "0e6d9a92691656c2"
+            ]
+        ]
+    },
+    {
+        "id": "a818a22eae55bfd4",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f9f9d8fbb0abdb45",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 3080,
+        "wires": []
+    },
+    {
+        "id": "44f2e3869bb76423",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f9f9d8fbb0abdb45",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "DOS1_Run",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 3040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ecc3ba036ab64df9",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 2980,
+        "wires": [
+            [
+                "ac7d283afc0d6cea",
+                "c073ce44abc05559"
+            ]
+        ]
+    },
+    {
+        "id": "ac7d283afc0d6cea",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 2980,
+        "wires": [
+            [
+                "67f4fa3538161c5c",
+                "8b946aca8ef607d8",
+                "0a2489fb77742f23"
+            ]
+        ]
+    },
+    {
+        "id": "67f4fa3538161c5c",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f9f9d8fbb0abdb45",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 2960,
+        "wires": []
+    },
+    {
+        "id": "c073ce44abc05559",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 2960,
+        "wires": []
+    },
+    {
+        "id": "8b946aca8ef607d8",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 2920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a2489fb77742f23",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "f9f9d8fbb0abdb45",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 3000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "05f26f64bd52c91e",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 3240,
+        "wires": [
+            [
+                "8b2511408cd832b6",
+                "636430adc4631916",
+                "ecf9b04b4be5e133"
+            ]
+        ]
+    },
+    {
+        "id": "8b927f4d6212fdf6",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS2_Run",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_EXT_DOS2_Run",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 3240,
+        "wires": [
+            [
+                "05f26f64bd52c91e",
+                "4217828f71a61919"
+            ]
+        ]
+    },
+    {
+        "id": "8b2511408cd832b6",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fdbbfe1838ebbb91",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "636430adc4631916",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fdbbfe1838ebbb91",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "DOS2_Run",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 3240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7213b9a0ba5256ee",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 3180,
+        "wires": [
+            [
+                "ecf9b04b4be5e133",
+                "1e2a7dcac18fce7c"
+            ]
+        ]
+    },
+    {
+        "id": "ecf9b04b4be5e133",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 3180,
+        "wires": [
+            [
+                "424611063decda79",
+                "3fb88bf1708509d7",
+                "7b260133731c4285"
+            ]
+        ]
+    },
+    {
+        "id": "424611063decda79",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fdbbfe1838ebbb91",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 3160,
+        "wires": []
+    },
+    {
+        "id": "1e2a7dcac18fce7c",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 3160,
+        "wires": []
+    },
+    {
+        "id": "3fb88bf1708509d7",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 3120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b260133731c4285",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "fdbbfe1838ebbb91",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 3200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58b83651e5f46269",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 3440,
+        "wires": [
+            [
+                "40418583c81350ee",
+                "4d4a3215f06ca935",
+                "d68f83f489488c61"
+            ]
+        ]
+    },
+    {
+        "id": "ea4180ced2de47c9",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "DOS3_Run",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_EXT_DOS3_Run",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 3440,
+        "wires": [
+            [
+                "58b83651e5f46269",
+                "207e9af863666606"
+            ]
+        ]
+    },
+    {
+        "id": "40418583c81350ee",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "34c42d13875adb5d",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 3480,
+        "wires": []
+    },
+    {
+        "id": "4d4a3215f06ca935",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "34c42d13875adb5d",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "DOS3_Run",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 3440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "222aa5affcb450d9",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 3380,
+        "wires": [
+            [
+                "d68f83f489488c61",
+                "dbb9ea82394cef9d"
+            ]
+        ]
+    },
+    {
+        "id": "d68f83f489488c61",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 3380,
+        "wires": [
+            [
+                "2c54aacab4c8b656",
+                "c03e380df3b8d1c9",
+                "4904216afb74b65a"
+            ]
+        ]
+    },
+    {
+        "id": "2c54aacab4c8b656",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "34c42d13875adb5d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 3360,
+        "wires": []
+    },
+    {
+        "id": "dbb9ea82394cef9d",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 3360,
+        "wires": []
+    },
+    {
+        "id": "c03e380df3b8d1c9",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 3320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4904216afb74b65a",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "34c42d13875adb5d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 3400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4217828f71a61919",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "fdbbfe1838ebbb91",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 3200,
+        "wires": []
+    },
+    {
+        "id": "0e6d9a92691656c2",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "f9f9d8fbb0abdb45",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 3000,
+        "wires": []
+    },
+    {
+        "id": "207e9af863666606",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "34c42d13875adb5d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 3400,
+        "wires": []
+    },
+    {
+        "id": "0c2fbd23b9277cb0",
+        "type": "OpcUa-Client",
+        "z": "6e5c79bcaeebd8b9",
+        "endpoint": "1559a8d4092fea69",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 440,
+        "y": 3640,
+        "wires": [
+            [
+                "f4ae0eaebbe57221",
+                "b743d1d68058b3ae",
+                "e2cc05c447b0052c"
+            ]
+        ]
+    },
+    {
+        "id": "1fcbc208fc345e38",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "FOG_Run",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Tags.GECO/MPRX_EXT_FOG_Run",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 3640,
+        "wires": [
+            [
+                "0c2fbd23b9277cb0",
+                "81ae852fae9f4efa"
+            ]
+        ]
+    },
+    {
+        "id": "f4ae0eaebbe57221",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "1c2cc3d1da3f1e8f",
+        "order": 51,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{' %.1f'|sprintf:value}} l/min",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 750,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "b743d1d68058b3ae",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "1c2cc3d1da3f1e8f",
+        "order": 36,
+        "width": "0",
+        "height": "0",
+        "label": "FOG_Run",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 3640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a52840493a506d3b",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "reset timer",
+        "props": [
+            {
+                "p": "reset",
+                "v": "oke",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "5",
+        "payload": "reset",
+        "payloadType": "msg",
+        "x": 230,
+        "y": 3580,
+        "wires": [
+            [
+                "e2cc05c447b0052c",
+                "0f4018217a416d5c"
+            ]
+        ]
+    },
+    {
+        "id": "e2cc05c447b0052c",
+        "type": "average",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "average",
+        "topic": "",
+        "x": 660,
+        "y": 3580,
+        "wires": [
+            [
+                "a60f75e109c957da",
+                "db5bd5980642c709",
+                "82fd40eb3c0e39fe"
+            ]
+        ]
+    },
+    {
+        "id": "a60f75e109c957da",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "1c2cc3d1da3f1e8f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 890,
+        "y": 3560,
+        "wires": []
+    },
+    {
+        "id": "0f4018217a416d5c",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "reset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 3560,
+        "wires": []
+    },
+    {
+        "id": "db5bd5980642c709",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oke",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 3520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "82fd40eb3c0e39fe",
+        "type": "ui_chart",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "1c2cc3d1da3f1e8f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 3600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "81ae852fae9f4efa",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "1c2cc3d1da3f1e8f",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 430,
+        "y": 3600,
+        "wires": []
     }
 ]
