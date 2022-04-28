@@ -842,5 +842,24 @@
                 "file": "/data/node_modules/node-red-node-ui-table/node.js"
             }
         }
+    },
+    "node-red-contrib-average": {
+        "name": "node-red-contrib-average",
+        "version": "0.1.7",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "average": {
+                "name": "average",
+                "types": [
+                    "average"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-average",
+                "file": "/data/node_modules/node-red-contrib-average/average.js"
+            }
+        }
     }
 }
