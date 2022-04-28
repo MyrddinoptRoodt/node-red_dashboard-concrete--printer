@@ -5717,7 +5717,7 @@
         "label": "Mixer_Disabled",
         "chartType": "line",
         "legend": "false",
-        "xformat": "HH:mm:ss",
+        "xformat": "auto",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
