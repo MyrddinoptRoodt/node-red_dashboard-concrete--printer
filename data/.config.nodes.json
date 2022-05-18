@@ -501,32 +501,6 @@
             }
         }
     },
-    "node-red-contrib-chartjs": {
-        "name": "node-red-contrib-chartjs",
-        "version": "0.5.2",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "chartjs": {
-                "name": "chartjs",
-                "types": [
-                    "chartjs-line",
-                    "chartjs-vertical-bar",
-                    "chartjs-horizontal-bar",
-                    "chartjs-pie",
-                    "chartjs-doughnut",
-                    "chartjs-polar",
-                    "chartjs-bubble",
-                    "chartjs-radar"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-chartjs",
-                "file": "/data/node_modules/node-red-contrib-chartjs/chartjs/chartjs.js"
-            }
-        }
-    },
     "node-red-node-mysql": {
         "name": "node-red-node-mysql",
         "version": "1.0.1",

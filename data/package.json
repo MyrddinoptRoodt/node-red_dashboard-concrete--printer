@@ -5,7 +5,6 @@
     "private": true,
     "dependencies": {
         "node-red-contrib-average": "~0.1.7",
-        "node-red-contrib-chartjs": "~0.5.2",
         "node-red-contrib-opcua": "~0.2.275",
         "node-red-dashboard": "~3.1.7",
         "node-red-node-mysql": "~1.0.1"
