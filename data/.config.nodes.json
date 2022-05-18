@@ -842,5 +842,65 @@
                 "file": "/data/node_modules/node-red-node-ui-table/node.js"
             }
         }
+    },
+    "node-red-contrib-average": {
+        "name": "node-red-contrib-average",
+        "version": "0.1.7",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "average": {
+                "name": "average",
+                "types": [
+                    "average"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-average",
+                "file": "/data/node_modules/node-red-contrib-average/average.js"
+            }
+        }
+    },
+    "node-red-contrib-uibuilder": {
+        "name": "node-red-contrib-uibuilder",
+        "version": "5.0.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "uibuilder": {
+                "name": "uibuilder",
+                "types": [
+                    "uibuilder"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "/data/node_modules/node-red-contrib-uibuilder/nodes/uibuilder.js"
+            },
+            "uib-sender": {
+                "name": "uib-sender",
+                "types": [
+                    "uib-sender"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "/data/node_modules/node-red-contrib-uibuilder/nodes/uib-sender.js"
+            },
+            "uib-cache": {
+                "name": "uib-cache",
+                "types": [
+                    "uib-cache"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "/data/node_modules/node-red-contrib-uibuilder/nodes/uib-cache.js"
+            }
+        }
     }
 }
