@@ -407,7 +407,7 @@
     },
     "node-red-contrib-opcua": {
         "name": "node-red-contrib-opcua",
-        "version": "0.2.274",
+        "version": "0.2.275",
         "local": true,
         "user": true,
         "nodes": {
@@ -527,44 +527,6 @@
             }
         }
     },
-    "node-red-contrib-ui-statechart": {
-        "name": "node-red-contrib-ui-statechart",
-        "version": "0.1.4",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "ui-statechart": {
-                "name": "ui-statechart",
-                "types": [
-                    "ui_statechart"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-ui-statechart",
-                "file": "/data/node_modules/node-red-contrib-ui-statechart/statechart.js"
-            }
-        }
-    },
-    "node-red-contrib-ui-timelines-chart": {
-        "name": "node-red-contrib-ui-timelines-chart",
-        "version": "0.1.8",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "ui_timelines_chart": {
-                "name": "ui_timelines_chart",
-                "types": [
-                    "ui_timelines_chart"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-ui-timelines-chart",
-                "file": "/data/node_modules/node-red-contrib-ui-timelines-chart/nodes/ui_timelines_chart.js"
-            }
-        }
-    },
     "node-red-node-mysql": {
         "name": "node-red-node-mysql",
         "version": "1.0.1",
@@ -585,11 +547,30 @@
             }
         }
     },
+    "node-red-contrib-average": {
+        "name": "node-red-contrib-average",
+        "version": "0.1.7",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "average": {
+                "name": "average",
+                "types": [
+                    "average"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-average",
+                "file": "/data/node_modules/node-red-contrib-average/average.js"
+            }
+        }
+    },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "3.1.6",
+        "version": "3.1.7",
         "local": true,
-        "user": false,
+        "user": true,
         "nodes": {
             "ui_base": {
                 "name": "ui_base",
@@ -821,85 +802,6 @@
                 "user": false,
                 "module": "node-red-dashboard",
                 "file": "/data/node_modules/node-red-dashboard/nodes/ui_spacer.js"
-            }
-        }
-    },
-    "node-red-node-ui-table": {
-        "name": "node-red-node-ui-table",
-        "version": "0.3.12",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "ui_table": {
-                "name": "ui_table",
-                "types": [
-                    "ui_table"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-node-ui-table",
-                "file": "/data/node_modules/node-red-node-ui-table/node.js"
-            }
-        }
-    },
-    "node-red-contrib-average": {
-        "name": "node-red-contrib-average",
-        "version": "0.1.7",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "average": {
-                "name": "average",
-                "types": [
-                    "average"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-average",
-                "file": "/data/node_modules/node-red-contrib-average/average.js"
-            }
-        }
-    },
-    "node-red-contrib-uibuilder": {
-        "name": "node-red-contrib-uibuilder",
-        "version": "5.0.2",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "uibuilder": {
-                "name": "uibuilder",
-                "types": [
-                    "uibuilder"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-uibuilder",
-                "file": "/data/node_modules/node-red-contrib-uibuilder/nodes/uibuilder.js"
-            },
-            "uib-sender": {
-                "name": "uib-sender",
-                "types": [
-                    "uib-sender"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-uibuilder",
-                "file": "/data/node_modules/node-red-contrib-uibuilder/nodes/uib-sender.js"
-            },
-            "uib-cache": {
-                "name": "uib-cache",
-                "types": [
-                    "uib-cache"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-uibuilder",
-                "file": "/data/node_modules/node-red-contrib-uibuilder/nodes/uib-cache.js"
             }
         }
     }
