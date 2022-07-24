@@ -1,9 +1,9 @@
 node-red-contrib-average
 ========================
 
-[![GitHub version](https://badge.fury.io/gh/eisbehr-%2Fnode-red-average.svg)](http://github.com/eisbehr-/node-red-average)
+[![GitHub version](https://badge.fury.io/gh/dkern%2Fnode-red-average.svg)](http://github.com/dkern/node-red-average)
 [![NPM version](https://badge.fury.io/js/node-red-contrib-average.svg)](http://www.npmjs.org/package/node-red-contrib-average)
-[![Dependencies Status](https://david-dm.org/eisbehr-/node-red-average/status.svg)](https://david-dm.org/eisbehr-/node-red-average)
+[![Dependencies Status](https://david-dm.org/dkern/node-red-average/status.svg)](https://david-dm.org/dkern/node-red-average)
 
 A <a href="http://nodered.org" target="_new">Node-RED</a> node to calculate average (_avg_).
 
@@ -54,7 +54,7 @@ Simple example showing how to calculate and average of static values.
 
 
 ## Bugs / Feature request
-Please [report](http://github.com/eisbehr-/node-red-average/issues) bugs and feel free to [ask](http://github.com/eisbehr-/node-red-average/issues) for new features directly on GitHub.
+Please [report](http://github.com/dkern/node-red-average/issues) bugs and feel free to [ask](http://github.com/dkern/node-red-average/issues) for new features directly on GitHub.
 
 
 ## License
