@@ -1,10 +1,21 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "2.2.2",
+        "version": "3.0.1",
         "local": false,
         "user": false,
         "nodes": {
+            "junction": {
+                "name": "junction",
+                "types": [
+                    "junction"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/05-junction.js"
+            },
             "inject": {
                 "name": "inject",
                 "types": [
@@ -407,7 +418,7 @@
     },
     "node-red-contrib-opcua": {
         "name": "node-red-contrib-opcua",
-        "version": "0.2.275",
+        "version": "0.2.284",
         "local": true,
         "user": true,
         "nodes": {
@@ -499,11 +510,12 @@
                 "module": "node-red-contrib-opcua",
                 "file": "/data/node_modules/node-red-contrib-opcua/opcua/108-opcuarights.js"
             }
-        }
+        },
+        "pending_version": "0.2.286"
     },
     "node-red-node-mysql": {
         "name": "node-red-node-mysql",
-        "version": "1.0.1",
+        "version": "1.0.3",
         "local": true,
         "user": true,
         "nodes": {
@@ -523,7 +535,7 @@
     },
     "node-red-contrib-average": {
         "name": "node-red-contrib-average",
-        "version": "0.1.7",
+        "version": "0.1.8",
         "local": true,
         "user": true,
         "nodes": {

@@ -418,7 +418,7 @@
     },
     "node-red-contrib-opcua": {
         "name": "node-red-contrib-opcua",
-        "version": "0.2.284",
+        "version": "0.2.286",
         "local": true,
         "user": true,
         "nodes": {
