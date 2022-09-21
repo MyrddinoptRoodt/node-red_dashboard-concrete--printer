@@ -2795,7 +2795,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS1Flow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -2806,7 +2806,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 520,
         "wires": [
             []
@@ -3116,7 +3116,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS2Flow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -3127,7 +3127,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 720,
         "wires": [
             []
@@ -3408,7 +3408,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS3Flow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -3419,7 +3419,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 920,
         "wires": [
             []
@@ -3751,7 +3751,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGFlow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -3762,7 +3762,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 1120,
         "wires": [
             []
@@ -4043,7 +4043,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGFoamAirFactor",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -4054,7 +4054,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 970,
         "y": 1320,
         "wires": [
             []
@@ -4678,7 +4678,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGFoamLoss",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -4689,7 +4689,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 1720,
         "wires": [
             []
@@ -4970,7 +4970,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "OGFoam",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -4981,7 +4981,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 1920,
         "wires": [
             []
@@ -5262,7 +5262,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGresFoam",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -5273,7 +5273,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 2120,
         "wires": [
             []
@@ -5605,7 +5605,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MixSpeed",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -5616,7 +5616,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 2320,
         "wires": [
             []
@@ -5897,7 +5897,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MixerDisabled",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -5908,7 +5908,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 2520,
         "wires": [
             []
@@ -6189,7 +6189,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "WaterFlowSet",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -6200,7 +6200,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 2720,
         "wires": [
             []
@@ -6532,7 +6532,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS1Run",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -6543,7 +6543,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 2920,
         "wires": [
             []
@@ -6824,7 +6824,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS2Run",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -6835,7 +6835,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 3120,
         "wires": [
             []
@@ -7116,7 +7116,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS3Run",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7127,7 +7127,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 3320,
         "wires": [
             []
@@ -7459,7 +7459,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGRun",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7470,7 +7470,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 3520,
         "wires": [
             []
@@ -7768,7 +7768,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "EXTHeartB",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7779,7 +7779,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 3720,
         "wires": [
             []
@@ -8060,7 +8060,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MiixRun",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8071,7 +8071,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 3920,
         "wires": [
             []
@@ -8386,7 +8386,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "PumpRun",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8397,7 +8397,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 4120,
         "wires": [
             []
@@ -8695,7 +8695,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "PumpSpeed",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8706,7 +8706,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 4320,
         "wires": [
             []
@@ -8987,7 +8987,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "AirHumid",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8998,7 +8998,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 4520,
         "wires": [
             []
@@ -9313,7 +9313,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "AirTemp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -9324,7 +9324,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 4720,
         "wires": [
             []
@@ -9622,7 +9622,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MortarTemp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -9633,7 +9633,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
+        "x": 840,
         "y": 40,
         "wires": [
             []
@@ -9931,7 +9931,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "WaterTemp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -9942,7 +9942,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
+        "x": 840,
         "y": 240,
         "wires": [
             []
