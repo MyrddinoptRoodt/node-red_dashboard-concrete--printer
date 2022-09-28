@@ -1353,6 +1353,28 @@
         "width": 6
     },
     {
+        "id": "9e3c604f627b7fd7",
+        "type": "ui_group",
+        "name": "group 26",
+        "tab": "210d9340d2149b29",
+        "order": 26,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "84783581b2d7a41c",
+        "type": "ui_group",
+        "name": "group 3",
+        "tab": "28adee398ee01b9e",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "1e87626276b7d1f1",
         "type": "mysql",
         "z": "6e5c79bcaeebd8b9",
@@ -2001,7 +2023,7 @@
         "seg1": "",
         "seg2": "",
         "className": "",
-        "x": 1770,
+        "x": 1810,
         "y": 1120,
         "wires": []
     },
@@ -2043,7 +2065,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1770,
+        "x": 1810,
         "y": 1080,
         "wires": [
             []
@@ -2145,10 +2167,10 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "6512",
-        "payload": "6512",
+        "topic": "50",
+        "payload": "50",
         "payloadType": "num",
-        "x": 1450,
+        "x": 1430,
         "y": 1280,
         "wires": [
             [
@@ -2795,7 +2817,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS1Flow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -2806,7 +2828,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 520,
         "wires": [
             []
@@ -3116,7 +3138,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS2Flow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -3127,7 +3149,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 720,
         "wires": [
             []
@@ -3408,7 +3430,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS3Flow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -3419,7 +3441,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 920,
         "wires": [
             []
@@ -3751,7 +3773,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGFlow",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -3762,7 +3784,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 1120,
         "wires": [
             []
@@ -4043,7 +4065,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGFoamAirFactor",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -4054,7 +4076,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 970,
         "y": 1320,
         "wires": [
             []
@@ -4335,7 +4357,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGFoamDense",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -4346,7 +4368,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 960,
         "y": 1520,
         "wires": [
             []
@@ -4678,7 +4700,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGFoamLoss",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -4689,7 +4711,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 1720,
         "wires": [
             []
@@ -4970,7 +4992,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "OGFoam",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -4981,7 +5003,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 1920,
         "wires": [
             []
@@ -5262,7 +5284,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGresFoam",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -5273,7 +5295,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 2120,
         "wires": [
             []
@@ -5605,7 +5627,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MixSpeed",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -5616,7 +5638,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 2320,
         "wires": [
             []
@@ -5897,7 +5919,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MixerDisabled",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -5908,7 +5930,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 2520,
         "wires": [
             []
@@ -6189,7 +6211,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "WaterFlowSet",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -6200,7 +6222,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 950,
         "y": 2720,
         "wires": [
             []
@@ -6532,7 +6554,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS1Run",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -6543,7 +6565,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 2920,
         "wires": [
             []
@@ -6824,7 +6846,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS2Run",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -6835,7 +6857,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 3120,
         "wires": [
             []
@@ -7116,7 +7138,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "DOS3Run",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7127,7 +7149,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 3320,
         "wires": [
             []
@@ -7459,7 +7481,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "FOGRun",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7470,7 +7492,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 3520,
         "wires": [
             []
@@ -7768,7 +7790,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "EXTHeartB",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7779,7 +7801,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 3720,
         "wires": [
             []
@@ -8060,7 +8082,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MiixRun",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8071,7 +8093,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 3920,
         "wires": [
             []
@@ -8386,7 +8408,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "PumpRun",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8397,7 +8419,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 4120,
         "wires": [
             []
@@ -8695,7 +8717,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "PumpSpeed",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8706,7 +8728,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 940,
         "y": 4320,
         "wires": [
             []
@@ -8987,7 +9009,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "AirHumid",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -8998,7 +9020,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 4520,
         "wires": [
             []
@@ -9313,7 +9335,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "AirTemp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -9324,7 +9346,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
+        "x": 930,
         "y": 4720,
         "wires": [
             []
@@ -9389,6 +9411,170 @@
         "className": "",
         "x": 430,
         "y": 4800,
+        "wires": []
+    },
+    {
+        "id": "ad68b789ff2a72f6",
+        "type": "ui_switch",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "9e3c604f627b7fd7",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "On.var",
+        "topicType": "global",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "5c5eb20216a4bb86"
+            ]
+        ]
+    },
+    {
+        "id": "d4f0a6a2979da27c",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "9e3c604f627b7fd7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "printer On?",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5c5eb20216a4bb86",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "payload",
+                "fromt": "msg",
+                "to": "On.var",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "d4f0a6a2979da27c"
+            ]
+        ]
+    },
+    {
+        "id": "7bd7aafbbb733888",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2250,
+        "y": 940,
+        "wires": [
+            [
+                "de0f249caa62239e"
+            ]
+        ]
+    },
+    {
+        "id": "de0f249caa62239e",
+        "type": "change",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "oke",
+                "tot": "global",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2440,
+        "y": 940,
+        "wires": [
+            [
+                "1bc8580f685d13f5"
+            ]
+        ]
+    },
+    {
+        "id": "1bc8580f685d13f5",
+        "type": "ui_gauge",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "group": "84783581b2d7a41c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 2610,
+        "y": 980,
         "wires": []
     },
     {
@@ -9622,7 +9808,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "MortarTemp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -9633,7 +9819,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
+        "x": 840,
         "y": 40,
         "wires": [
             []
@@ -9931,7 +10117,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "oke",
+                "p": "WaterTemp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -9942,7 +10128,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
+        "x": 840,
         "y": 240,
         "wires": [
             []
