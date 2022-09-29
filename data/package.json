@@ -5,8 +5,8 @@
     "private": true,
     "dependencies": {
         "node-red-contrib-average": "~0.1.7",
-        "node-red-contrib-opcua": "~0.2.288",
-        "node-red-dashboard": "~3.1.7",
+        "node-red-contrib-opcua": "~0.2.289",
+        "node-red-dashboard": "~3.2.0",
         "node-red-node-mysql": "~1.0.1"
     }
 }

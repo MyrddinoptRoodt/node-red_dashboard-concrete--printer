@@ -110,7 +110,7 @@ function makeDefaultVariant(addressSpace: IAddressSpace, dataTypeNode: NodeId, v
         }
         const dv = builtInType.defaultValue;
         const value = typeof dv === "function" ? dv() : dv;
- 
+
         let arrayType: VariantArrayType;
         /*
          *  * n > 1                     : the Value is an array with the specified number of dimensions.
@@ -145,11 +145,15 @@ export interface NodeSet2ParserEngine {
     terminate: (callback: SimpleCallback) => void;
 }
 
-export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2ParserEngine {
+function makeNodeSetParserEngine(addressSpace: IAddressSpace, options: NodeSetLoaderOptions): NodeSet2ParserEngine {
     const addressSpace1 = addressSpace as AddressSpacePrivate;
     addressSpace1.suspendBackReference = true;
 
+    options.loadDeprecatedNodes = options.loadDeprecatedNodes === undefined ? true:  options.loadDeprecatedNodes;
+    options.loadDraftNodes = options.loadDraftNodes || false;
+    
     const postTasks: Task[] = [];
+    const postTasks0_InitializeVariable: Task[] = [];
     const postTasks0_DecodePojoString: Task[] = [];
     const postTasks1_InitializeVariable: Task[] = [];
     const postTasks2_AssignedExtensionObjectToDataValue: Task[] = [];
@@ -171,6 +175,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
     let namespaceCounter = 0;
     let found_namespace_in_uri: { [key: string]: NamespacePrivate } = {};
     let models: Model[] = [];
+    let performedCalled = false;
 
     function _reset_namespace_translation() {
         debugLog("_reset_namespace_translation");
@@ -179,6 +184,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
         namespaceCounter = 0;
         alias_map = {};
         models = [];
+        performedCalled = false;
     }
 
     function _translateNamespaceIndex(innerIndex: number) {
@@ -186,9 +192,9 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
 
         // istanbul ignore next
         if (namespaceIndex === undefined) {
-            // tslint:disable-next-line: no-console
             debugLog("Warning: namespace_uri_translation = ", namespace_uri_translation);
-            throw new Error("_translateNamespaceIndex! Cannot find namespace definition for index " + innerIndex);
+            errorLog("namespace_uri_translation", namespace_uri_translation);
+            throw new Error("_translateNamespaceIndex() ! Cannot find namespace definition for index " + innerIndex);
         }
         return namespaceIndex;
     }
@@ -213,9 +219,9 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
         return namespace.internalCreateNode(params) as BaseNode;
     }
 
-    function _register_namespace_uri_in_translation_table(namespaceUri: string): NamespacePrivate {
+    function _register_namespace_uri_in_translation_table(namespaceUri: string): void {
         if (found_namespace_in_uri[namespaceUri]) {
-            return found_namespace_in_uri[namespaceUri];
+            return;
         }
         const namespace = addressSpace1.getNamespace(namespaceUri);
         if (!namespace) {
@@ -240,7 +246,6 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
                 " index in addressSpace",
                 namespace.index
             );
-        return namespace;
     }
 
     function _add_namespace(model: Model) {
@@ -384,6 +389,8 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
 
     const state_UAObject = {
         init(this: any, name: string, attrs: XmlAttributes) {
+            _perform();
+
             this.obj = {};
             this.obj.nodeClass = NodeClass.Object;
             this.obj.isAbstract = ec.coerceBoolean(attrs.IsAbstract);
@@ -393,12 +400,10 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
             this.obj.symbolicName = attrs.SymbolicName || null;
 
             this.isDraft = attrs.ReleaseStatus === "Draft";
-            this.obj.isDeprecated = attrs.ReleaseStatus === "Deprecated";
+            this.isDeprecated = attrs.ReleaseStatus === "Deprecated";
         },
         finish(this: any) {
-            if (this.isDraft || this.isDeprecated) {
-                // ignore Draft or Deprecated element
-                debugLog("Ignoring Draft/Deprecated UAObject =", this.obj.browseName.toString());
+            if (canIngore({ isDraft: this.isDraft, isDeprecated: this.isDeprecated }, this.obj)) {
                 return;
             }
             _internal_createNode(this.obj);
@@ -422,6 +427,8 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
 
     const state_UAObjectType = {
         init(this: any, name: string, attrs: XmlAttributes) {
+            _perform();
+
             this.obj = {};
             this.obj.nodeClass = NodeClass.ObjectType;
             this.obj.isAbstract = ec.coerceBoolean(attrs.IsAbstract);
@@ -451,6 +458,8 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
 
     const state_UAReferenceType = {
         init(this: any, name: string, attrs: XmlAttributes) {
+            _perform();
+
             this.obj = {};
             this.obj.nodeClass = NodeClass.ReferenceType;
             this.obj.isAbstract = ec.coerceBoolean(attrs.IsAbstract);
@@ -486,6 +495,8 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
 
     const state_UADataType = {
         init(this: any, name: string, attrs: XmlAttributes) {
+            _perform();
+
             this.obj = {};
             this.obj.nodeClass = NodeClass.DataType;
             this.obj.isAbstract = ec.coerceBoolean(attrs.IsAbstract) || false;
@@ -501,9 +512,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
             this.definitionFields = [];
         },
         finish(this: any) {
-            if (this.isDraft || this.isDeprecated) {
-                // ignore Draft or Deprecated element
-                debugLog("Ignoring Draft/Deprecated dataType =", this.obj.browseName.toString());
+            if (canIngore({ isDraft: this.isDraft, isDeprecated: this.isDeprecated }, this.obj)) {
                 return;
             }
             /*
@@ -861,6 +870,14 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
                         assert(self.extensionObject instanceof ExtensionObject);
                         break;
                     default: {
+                        // istanbul ignore next
+                        if (! this._cloneFragment) {
+                            // the XML file is probably not exposing standard UA extension object correctly.
+                            // this has been seen in some generated xml files using the dataType nodeId instead of the default encoding
+                            // nodeid 
+                            errorLog("[NODE-OPCUA-E12] standard OPCUA Extension object from (namespace=0) has a invalid TypeId", self.typeDefinitionId.toString());
+                            break;
+                        }
                         this.bodyXML = this._cloneFragment!.value;
                         this._cloneFragment!.value = null;
 
@@ -1329,8 +1346,22 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
         };
         postTasks2_AssignedExtensionObjectToDataValue.push(task);
     }
+
+    const canIngore = ({ isDraft, isDeprecated }: { isDraft: boolean; isDeprecated: boolean }, node: BaseNode) => {
+        if (isDraft && !options.loadDraftNodes) {
+            debugLog("Ignoring Draft            =", NodeClass[node.nodeClass], node.browseName.toString());
+            return true;
+        }
+        if (isDeprecated && !options.loadDeprecatedNodes) {
+            debugLog("Ignoring Deprecate        =", NodeClass[node.nodeClass], node.browseName.toString());
+            return true;
+        }
+        return false;
+    };
     const state_UAVariable = {
         init(this: any, name: string, attrs: XmlAttributes) {
+            _perform();
+
             this.obj = {};
 
             this.obj.nodeClass = NodeClass.Variable;
@@ -1354,10 +1385,10 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
             this.isDeprecated = attrs.ReleaseStatus === "Deprecated";
         },
         finish(this: any) {
-            if (this.isDraft || this.isDeprecated) {
-                debugLog("Ignoring Draft/Deprecated UAVariable =", this.obj.browseName.toString());
+            if (canIngore({ isDraft: this.isDraft, isDeprecated: this.isDeprecated }, this.obj)) {
                 return;
             }
+
             /*
             // set default value based on obj data Type
             if (this.obj.value === undefined) {
@@ -1378,7 +1409,14 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
                     capturedValue = undefined;
                     (capturedVariable as any) = undefined;
                 };
-                postTasks1_InitializeVariable.push(task);
+                if (capturedValue.dataType !== DataType.ExtensionObject) {
+                    postTasks0_InitializeVariable.push(task);
+                } else {
+                    // do them later
+                    postTasks1_InitializeVariable.push(task);
+                }
+
+               
             } else {
                 const task = async (addressSpace2: IAddressSpace) => {
                     const dataTypeNode = capturedVariable.dataType;
@@ -1396,7 +1434,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
                     }
                     (capturedVariable as any) = undefined;
                 };
-                postTasks1_InitializeVariable.push(task);
+                postTasks0_InitializeVariable.push(task);
             }
             this.obj.value = undefined;
             capturedVariable = _internal_createNode(this.obj) as UAVariable;
@@ -1421,6 +1459,8 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
 
     const state_UAVariableType = {
         init(this: any, name: string, attrs: XmlAttributes) {
+            _perform();
+
             this.obj = {};
             this.obj.isAbstract = ec.coerceBoolean(attrs.IsAbstract);
 
@@ -1441,8 +1481,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
             this.isDeprecated = attrs.ReleaseStatus === "Deprecated";
         },
         finish(this: any) {
-            if (this.isDraft || this.isDeprecated) {
-                debugLog("Ignoring Draft/Deprecated UAVariableType =", this.obj.browseName.toString());
+            if (canIngore({ isDraft: this.isDraft, isDeprecated: this.isDeprecated }, this.obj)) {
                 return;
             }
             try {
@@ -1473,6 +1512,8 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
 
     const state_UAMethod = {
         init(this: any, name: string, attrs: XmlAttributes) {
+            _perform();
+
             this.obj = {};
             this.obj.nodeClass = NodeClass.Method;
             // MethodDeclarationId
@@ -1486,8 +1527,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
             this.isDeprecated = attrs.ReleaseStatus === "Deprecated";
         },
         finish(this: any) {
-            if (this.isDraft || this.isDeprecated) {
-                debugLog("Ignoring Draft/Deprecated UAMethod =", this.obj.browseName.toString());
+            if (canIngore({ isDraft: this.isDraft, isDeprecated: this.isDeprecated }, this.obj)) {
                 return;
             }
             _internal_createNode(this.obj);
@@ -1557,7 +1597,17 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
         }
     });
 
+    function _updateTranslationTable() {
+        _register_namespace_uri_in_translation_table("http://opcfoundation.org/UA/");
+        for (const namespaceUri of _namespaceUris) {
+            _register_namespace_uri_in_translation_table(namespaceUri);
+        }
+    }
+
     function _perform() {
+        if (performedCalled) return;
+        performedCalled = true;
+
         /**special case for old nodeset file version 1.02 where no models exists */
         if (models.length === 0) {
             for (const namespaceuri of _namespaceUris) {
@@ -1573,13 +1623,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
                 });
             }
         }
-
-        doDebug && debugLog("xxx models =", JSON.stringify(models, null, " "));
-        doDebug && debugLog("xxx _namespaceUris =", _namespaceUris);
-        _register_namespace_uri_in_translation_table("http://opcfoundation.org/UA/");
-        for (const namespaceUri of _namespaceUris) {
-            _register_namespace_uri_in_translation_table(namespaceUri);
-        }
+        _updateTranslationTable();
     }
     // state_ModelTableEntry.parser["RequiredModel"] = state_ModelTableEntry;
     let _namespaceUris: string[] = [];
@@ -1681,6 +1725,9 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
             doDebug && debugLog(chalk.bgGreenBright("Performing post loading tasks -------------------------------------------"));
             await performPostLoadingTasks(postTasks);
 
+            doDebug && debugLog(chalk.bgGreenBright("Performing post loading task: Initializing Simple Variables ---------------------"));
+            await performPostLoadingTasks(postTasks0_InitializeVariable);
+
             doDebug && debugLog(chalk.bgGreenBright("Performing DataType extraction -------------------------------------------"));
             assert(!addressSpace1.suspendBackReference);
             await ensureDatatypeExtracted(addressSpace);
@@ -1700,7 +1747,7 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
             doDebug && debugLog(chalk.bgGreenBright("Performing post loading task: Decoding Pojo String (parsing XML objects) -"));
             await performPostLoadingTasks(postTasks0_DecodePojoString);
 
-            doDebug && debugLog(chalk.bgGreenBright("Performing post loading task: Initializing Variables ---------------------"));
+            doDebug && debugLog(chalk.bgGreenBright("Performing post loading task: Initializing Complex Variables ---------------------"));
             await performPostLoadingTasks(postTasks1_InitializeVariable);
 
             doDebug && debugLog(chalk.bgGreenBright("Performing post loading tasks: (assigning Extension Object to Variables) -"));
@@ -1726,10 +1773,16 @@ export function makeNodeSetParserEngine(addressSpace: IAddressSpace): NodeSet2Pa
         terminate
     };
 }
+
+export interface NodeSetLoaderOptions {
+    loadDraftNodes?: boolean;
+    loadDeprecatedNodes?: boolean;
+}
+
 export class NodeSetLoader {
-    _s: any;
-    constructor(addressSpace: IAddressSpace) {
-        this._s = makeNodeSetParserEngine(addressSpace);
+    _s: NodeSet2ParserEngine;
+    constructor(addressSpace: IAddressSpace, private options?: NodeSetLoaderOptions) {
+        this._s = makeNodeSetParserEngine(addressSpace, options || {});
     }
 
     addNodeSet(xmlData: string, callback: ErrorCallback): void {
