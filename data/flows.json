@@ -16,6 +16,14 @@
         "env": []
     },
     {
+        "id": "1e1ae04388d0959a",
+        "type": "tab",
+        "label": "control panel",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "891ee435ac193545",
         "type": "MySQLdatabase",
         "name": "db_nodered",
@@ -158,8 +166,8 @@
     {
         "id": "210d9340d2149b29",
         "type": "ui_tab",
-        "name": "Tab 1",
-        "icon": "fa-camera",
+        "name": "Dashboard",
+        "icon": "fa-tachometer",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -1126,7 +1134,7 @@
         "type": "ui_group",
         "name": "Group_1",
         "tab": "210d9340d2149b29",
-        "order": 1,
+        "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1137,7 +1145,7 @@
         "type": "ui_group",
         "name": "Group_2",
         "tab": "210d9340d2149b29",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1148,7 +1156,7 @@
         "type": "ui_group",
         "name": "Group_3",
         "tab": "210d9340d2149b29",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1159,7 +1167,7 @@
         "type": "ui_group",
         "name": "Group 4",
         "tab": "210d9340d2149b29",
-        "order": 4,
+        "order": 5,
         "disp": true,
         "width": 6
     },
@@ -1168,7 +1176,7 @@
         "type": "ui_group",
         "name": "Group 5",
         "tab": "210d9340d2149b29",
-        "order": 5,
+        "order": 6,
         "disp": true,
         "width": 6
     },
@@ -1177,7 +1185,7 @@
         "type": "ui_group",
         "name": "Group 6",
         "tab": "210d9340d2149b29",
-        "order": 6,
+        "order": 7,
         "disp": true,
         "width": 6
     },
@@ -1186,7 +1194,7 @@
         "type": "ui_group",
         "name": "Group 7",
         "tab": "210d9340d2149b29",
-        "order": 7,
+        "order": 8,
         "disp": true,
         "width": 6
     },
@@ -1195,7 +1203,7 @@
         "type": "ui_group",
         "name": "Group 8",
         "tab": "210d9340d2149b29",
-        "order": 8,
+        "order": 9,
         "disp": true,
         "width": 6
     },
@@ -1204,7 +1212,7 @@
         "type": "ui_group",
         "name": "Group 9",
         "tab": "210d9340d2149b29",
-        "order": 9,
+        "order": 10,
         "disp": true,
         "width": 6
     },
@@ -1213,7 +1221,7 @@
         "type": "ui_group",
         "name": "Group 10",
         "tab": "210d9340d2149b29",
-        "order": 10,
+        "order": 11,
         "disp": true,
         "width": 6
     },
@@ -1222,7 +1230,7 @@
         "type": "ui_group",
         "name": "Group 11",
         "tab": "210d9340d2149b29",
-        "order": 11,
+        "order": 12,
         "disp": true,
         "width": 6
     },
@@ -1231,7 +1239,7 @@
         "type": "ui_group",
         "name": "Group 12",
         "tab": "210d9340d2149b29",
-        "order": 12,
+        "order": 13,
         "disp": true,
         "width": 6
     },
@@ -1240,7 +1248,7 @@
         "type": "ui_group",
         "name": "Group 13",
         "tab": "210d9340d2149b29",
-        "order": 13,
+        "order": 14,
         "disp": true,
         "width": 6
     },
@@ -1249,7 +1257,7 @@
         "type": "ui_group",
         "name": "Group 14",
         "tab": "210d9340d2149b29",
-        "order": 14,
+        "order": 15,
         "disp": true,
         "width": 6
     },
@@ -1258,7 +1266,7 @@
         "type": "ui_group",
         "name": "Group 15",
         "tab": "210d9340d2149b29",
-        "order": 15,
+        "order": 16,
         "disp": true,
         "width": 6
     },
@@ -1267,7 +1275,7 @@
         "type": "ui_group",
         "name": "Group 16",
         "tab": "210d9340d2149b29",
-        "order": 16,
+        "order": 17,
         "disp": true,
         "width": 6
     },
@@ -1276,7 +1284,7 @@
         "type": "ui_group",
         "name": "Group 17",
         "tab": "210d9340d2149b29",
-        "order": 17,
+        "order": 18,
         "disp": true,
         "width": 6
     },
@@ -1285,7 +1293,7 @@
         "type": "ui_group",
         "name": "Group 18",
         "tab": "210d9340d2149b29",
-        "order": 18,
+        "order": 19,
         "disp": true,
         "width": 6
     },
@@ -1294,7 +1302,7 @@
         "type": "ui_group",
         "name": "Group 19",
         "tab": "210d9340d2149b29",
-        "order": 19,
+        "order": 20,
         "disp": true,
         "width": 6
     },
@@ -1303,7 +1311,7 @@
         "type": "ui_group",
         "name": "Group 20",
         "tab": "210d9340d2149b29",
-        "order": 20,
+        "order": 21,
         "disp": true,
         "width": 6
     },
@@ -1312,7 +1320,7 @@
         "type": "ui_group",
         "name": "Group 21",
         "tab": "210d9340d2149b29",
-        "order": 21,
+        "order": 22,
         "disp": true,
         "width": 6
     },
@@ -1321,7 +1329,7 @@
         "type": "ui_group",
         "name": "Group 22",
         "tab": "210d9340d2149b29",
-        "order": 22,
+        "order": 23,
         "disp": true,
         "width": 6
     },
@@ -1330,7 +1338,7 @@
         "type": "ui_group",
         "name": "Group 23",
         "tab": "210d9340d2149b29",
-        "order": 23,
+        "order": 24,
         "disp": true,
         "width": 6
     },
@@ -1339,7 +1347,7 @@
         "type": "ui_group",
         "name": "Group 24",
         "tab": "210d9340d2149b29",
-        "order": 24,
+        "order": 25,
         "disp": true,
         "width": 6
     },
@@ -1348,7 +1356,7 @@
         "type": "ui_group",
         "name": "Group 25",
         "tab": "210d9340d2149b29",
-        "order": 25,
+        "order": 26,
         "disp": true,
         "width": 6
     },
@@ -1357,7 +1365,7 @@
         "type": "ui_group",
         "name": "group 26",
         "tab": "210d9340d2149b29",
-        "order": 26,
+        "order": 27,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1371,6 +1379,36 @@
         "order": 3,
         "disp": true,
         "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3c43aa4ad6097072",
+        "type": "ui_tab",
+        "name": "control panel",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e6bdbe357e96ddf1",
+        "type": "ui_group",
+        "name": "logo",
+        "tab": "3c43aa4ad6097072",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fe452729170ed7c6",
+        "type": "ui_group",
+        "name": "Logo",
+        "tab": "210d9340d2149b29",
+        "order": 1,
+        "disp": true,
+        "width": "18",
         "collapse": false,
         "className": ""
     },
@@ -1440,7 +1478,8 @@
             [
                 "aedbbdbd2971d778",
                 "8f2c3fb9848a1bd1",
-                "2e6aaaee96908a6d"
+                "2e6aaaee96908a6d",
+                "4c83906ad8088f58"
             ]
         ]
     },
@@ -1984,7 +2023,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "3",
+        "repeat": "12",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -2101,12 +2140,12 @@
                 "vt": "str"
             }
         ],
-        "repeat": "1",
+        "repeat": "1.5",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "8",
-        "payload": "8",
+        "topic": "val",
+        "payload": "2",
         "payloadType": "num",
         "x": 1430,
         "y": 1180,
@@ -2132,14 +2171,14 @@
                 "vt": "str"
             }
         ],
-        "repeat": "3",
+        "repeat": "1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "10",
+        "topic": "val",
         "payload": "10",
         "payloadType": "num",
-        "x": 1440,
+        "x": 1450,
         "y": 1220,
         "wires": [
             [
@@ -2163,14 +2202,14 @@
                 "vt": "str"
             }
         ],
-        "repeat": "10",
+        "repeat": "8",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "50",
+        "topic": "val",
         "payload": "50",
         "payloadType": "num",
-        "x": 1430,
+        "x": 1440,
         "y": 1280,
         "wires": [
             [
@@ -2470,8 +2509,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1980,
-        "y": 920,
+        "x": 2000,
+        "y": 880,
         "wires": [
             []
         ]
@@ -2930,7 +2969,8 @@
             [
                 "70337c7fe19a1758",
                 "3859dce17ccb4a6a",
-                "115460f366369c06"
+                "115460f366369c06",
+                "1c0fe5e33fb73f0d"
             ]
         ]
     },
@@ -3222,7 +3262,8 @@
             [
                 "ba2fb13a2857ff4d",
                 "aa0d35781fc0b82c",
-                "5c7d46816d9bfe60"
+                "5c7d46816d9bfe60",
+                "9236ac1b9612e973"
             ]
         ]
     },
@@ -3565,7 +3606,8 @@
             [
                 "a1eef7f15a4c778c",
                 "cc10e7797a1b890d",
-                "19efbe8feb4e9923"
+                "19efbe8feb4e9923",
+                "909aad5f2549eeb3"
             ]
         ]
     },
@@ -3857,7 +3899,8 @@
             [
                 "379541500999ed4d",
                 "c1901f1d3329f1d5",
-                "c725a653dce0272b"
+                "c725a653dce0272b",
+                "8d43d96b72664777"
             ]
         ]
     },
@@ -4149,7 +4192,8 @@
             [
                 "7aee9111ae313ddf",
                 "418bb9e90b51d2b7",
-                "bb1570c90b96b205"
+                "bb1570c90b96b205",
+                "1d2006fe6ec5f9ba"
             ]
         ]
     },
@@ -4492,7 +4536,8 @@
             [
                 "514d860b7004a77c",
                 "4a4120a7ad5629a5",
-                "9781bae207a56a6f"
+                "9781bae207a56a6f",
+                "848b4063f473d21b"
             ]
         ]
     },
@@ -4784,7 +4829,8 @@
             [
                 "d5cfbfdf25597d35",
                 "fdedd5f1030e109d",
-                "951b2de1a11b8863"
+                "951b2de1a11b8863",
+                "5cabfa6e1864be77"
             ]
         ]
     },
@@ -5076,7 +5122,8 @@
             [
                 "c75867087c064755",
                 "4877f52f60ef4d10",
-                "f6a859c4c4e8ae6e"
+                "f6a859c4c4e8ae6e",
+                "c0bd945cffe2a8a5"
             ]
         ]
     },
@@ -5419,7 +5466,8 @@
             [
                 "f87448ca45355850",
                 "8a370436e987ce67",
-                "818b38eab1066da0"
+                "818b38eab1066da0",
+                "76c335df7de5b917"
             ]
         ]
     },
@@ -5711,7 +5759,8 @@
             [
                 "b375ab3be340f7da",
                 "984a7f7baa34284c",
-                "196eeb47455bd982"
+                "196eeb47455bd982",
+                "3db70d53c9606c7e"
             ]
         ]
     },
@@ -6003,7 +6052,8 @@
             [
                 "3fa162a16d4e3a9e",
                 "26cd61551cf7907e",
-                "c5e3bd49a3565ed1"
+                "c5e3bd49a3565ed1",
+                "d63677dfee560e33"
             ]
         ]
     },
@@ -6346,7 +6396,8 @@
             [
                 "a818a22eae55bfd4",
                 "44f2e3869bb76423",
-                "ac7d283afc0d6cea"
+                "ac7d283afc0d6cea",
+                "972a00b4b11a46a7"
             ]
         ]
     },
@@ -6638,7 +6689,8 @@
             [
                 "8b2511408cd832b6",
                 "636430adc4631916",
-                "ecf9b04b4be5e133"
+                "ecf9b04b4be5e133",
+                "49d87fef2481785b"
             ]
         ]
     },
@@ -6930,7 +6982,8 @@
             [
                 "40418583c81350ee",
                 "4d4a3215f06ca935",
-                "d68f83f489488c61"
+                "d68f83f489488c61",
+                "83aca41c0a3de359"
             ]
         ]
     },
@@ -7273,7 +7326,8 @@
             [
                 "f4ae0eaebbe57221",
                 "b743d1d68058b3ae",
-                "e2cc05c447b0052c"
+                "e2cc05c447b0052c",
+                "8c5e6bb9e0d9f1ed"
             ]
         ]
     },
@@ -7582,7 +7636,8 @@
             [
                 "49e41ebbfc8c16b2",
                 "01b304ef91df961a",
-                "4df8f14d24c2ed6b"
+                "4df8f14d24c2ed6b",
+                "5be22bfde6b48277"
             ]
         ]
     },
@@ -7874,7 +7929,8 @@
             [
                 "891d27b8fb9ec2fe",
                 "d3b2df83645a683f",
-                "dd07a86332c1eddc"
+                "dd07a86332c1eddc",
+                "5aff6fe0daf197bb"
             ]
         ]
     },
@@ -8200,7 +8256,8 @@
             [
                 "31a9c21869588ab6",
                 "ab26a264c993b6b6",
-                "37de747267d2333b"
+                "37de747267d2333b",
+                "b7cb3f8b4959457a"
             ]
         ]
     },
@@ -8509,7 +8566,8 @@
             [
                 "f5972aeca071b463",
                 "3fe436e637df1e7a",
-                "aeb587fad2f4b9b3"
+                "aeb587fad2f4b9b3",
+                "53d476816e660be4"
             ]
         ]
     },
@@ -8801,7 +8859,8 @@
             [
                 "17ee86d151534db3",
                 "3137f5e0a3f33750",
-                "b8b0a929cc450060"
+                "b8b0a929cc450060",
+                "9a849dfe05adb0b9"
             ]
         ]
     },
@@ -9127,7 +9186,8 @@
             [
                 "3b9b28f919fdfa29",
                 "f76bf303ac054e88",
-                "9d8bf9e0929f0f92"
+                "9d8bf9e0929f0f92",
+                "77041e6cf875fcbb"
             ]
         ]
     },
@@ -9578,6 +9638,516 @@
         "wires": []
     },
     {
+        "id": "d2a0173ad8b2974b",
+        "type": "mysql",
+        "z": "6e5c79bcaeebd8b9",
+        "mydb": "891ee435ac193545",
+        "name": "Database",
+        "x": 1620,
+        "y": 2040,
+        "wires": [
+            [
+                "6370589618082e31"
+            ]
+        ]
+    },
+    {
+        "id": "6370589618082e31",
+        "type": "debug",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "succes",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1840,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "ffb4cc6f2dad0961",
+        "type": "inject",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "INSERT into node_red.pump_log(MPRX_DI_dos1_flowrate,Log_datetime) VALUES (5,);",
+        "payloadType": "str",
+        "x": 1290,
+        "y": 2040,
+        "wires": [
+            [
+                "a9a8242208ae7799"
+            ]
+        ]
+    },
+    {
+        "id": "a9a8242208ae7799",
+        "type": "function",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "func": "var date = new Date().toISOString().slice(0, 19).replace('T', ' ');\nmsg.topic = \"INSERT INTO pump_log(MPRX_DI_dos1_flowrate,Log_datetime) VALUES (\" +10+ \",'\" +date+\"')\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 2040,
+        "wires": [
+            [
+                "d2a0173ad8b2974b"
+            ]
+        ]
+    },
+    {
+        "id": "ef96fd266b365561",
+        "type": "function",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "all elements",
+        "func": "var dos1f = global.DOS1Flow\nvar dos2f = global.DOS2Flow\nvar dos3f = global.DOS3Flow\nvar fogf = global.FOGFlow\nvar fogfa = global.FOGFoamAirFactor\nvar fogfd = global.FOGFoamDense\nvar fogfl = global.FOGFoamLoss\nvar ogf = global.OGFoam\nvar fogresf = global.FOGresFoam\nvar mxs = global.MixSpeed\nvar mxd = global.MixerDisabled\nvar wfs = global.WaterFlowSet\nvar dos1r = global.DOS1Run\nvar dos2r = global.DOS2Run\nvar dos3r = global.DOS3Run\nvar fogr = global.FOGRun\nvar hb = global.EXTHeartB\nvar pr = global.PumpRun\nvar ps = global.PumpSpeed\nvar airh = global.AirHumid\nvar airt = global.AirTemp\nvar mt = global.MortarTemp\nvar wt = global.WaterTemp\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c0fe5e33fb73f0d",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "ef6c4b8ee7c36c71",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "4c83906ad8088f58",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "5596c1d6d25d7e5a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "9236ac1b9612e973",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "fa2bc04d26c647aa",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "909aad5f2549eeb3",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "5c0f801ee0a6ff1d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "8d43d96b72664777",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "9861ddfc8b018853",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "1d2006fe6ec5f9ba",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "24a601d4c4711127",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "848b4063f473d21b",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "8d7a76fa7bd4833f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "5cabfa6e1864be77",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "bdce10dfabaa9353",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "c0bd945cffe2a8a5",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "0b4c5bb3124e3e33",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "76c335df7de5b917",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "8b89319fd396ecb0",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "3db70d53c9606c7e",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "c48896fa4fe69244",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "d63677dfee560e33",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "f29377911f47865d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 2900,
+        "wires": []
+    },
+    {
+        "id": "972a00b4b11a46a7",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "f9f9d8fbb0abdb45",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 3100,
+        "wires": []
+    },
+    {
+        "id": "49d87fef2481785b",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "fdbbfe1838ebbb91",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "83aca41c0a3de359",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "34c42d13875adb5d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 3500,
+        "wires": []
+    },
+    {
+        "id": "8c5e6bb9e0d9f1ed",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "1c2cc3d1da3f1e8f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 3700,
+        "wires": []
+    },
+    {
+        "id": "5be22bfde6b48277",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "41ea2da58f385b0d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 3900,
+        "wires": []
+    },
+    {
+        "id": "5aff6fe0daf197bb",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "d56aeb000197f300",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 4100,
+        "wires": []
+    },
+    {
+        "id": "b7cb3f8b4959457a",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "db5893c5c7c4bb11",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 4300,
+        "wires": []
+    },
+    {
+        "id": "53d476816e660be4",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "c57ae131402f1801",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 4500,
+        "wires": []
+    },
+    {
+        "id": "9a849dfe05adb0b9",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "bec8df0126326b48",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 4700,
+        "wires": []
+    },
+    {
+        "id": "77041e6cf875fcbb",
+        "type": "ui_text",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "69305c7cdd6b0632",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 4900,
+        "wires": []
+    },
+    {
+        "id": "4f812732f24f2889",
+        "type": "http request",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "",
+        "persist": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1250,
+        "y": 3500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be24a4378f0842db",
+        "type": "ui_template",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "fe452729170ed7c6",
+        "name": "",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "format": "<div style=\"height: 200px; width: 100%;\" >\n    <img src=\"https://www.thomasmore.be/sites/www.thomasmore.be/files/tm_standaardlogo_web.png\" alt=\"logo TM\" />\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "8e2a50f2fcb5d002",
         "type": "OpcUa-Client",
         "z": "c1a50abf49df9690",
@@ -9600,7 +10170,8 @@
             [
                 "877020ab8496c8d9",
                 "6a7f7256a08cab33",
-                "e6338d8e11703c72"
+                "e6338d8e11703c72",
+                "4b947ce2a9a58cb2"
             ]
         ]
     },
@@ -9909,7 +10480,8 @@
             [
                 "acb48d090bafdffa",
                 "d88775fcf2321c7e",
-                "f950a894ad50cb32"
+                "f950a894ad50cb32",
+                "b09842bd58631df2"
             ]
         ]
     },
@@ -10194,5 +10766,60 @@
         "x": 330,
         "y": 320,
         "wires": []
+    },
+    {
+        "id": "4b947ce2a9a58cb2",
+        "type": "ui_text",
+        "z": "c1a50abf49df9690",
+        "group": "587076590ffb50fe",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 530,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b09842bd58631df2",
+        "type": "ui_text",
+        "z": "c1a50abf49df9690",
+        "group": "4c915ef189c1351f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 530,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6a5ef253e8429cde",
+        "type": "ui_template",
+        "z": "1e1ae04388d0959a",
+        "group": "e6bdbe357e96ddf1",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"height: 200px; width: 100%;\" >\n    <img src=\"https://www.thomasmore.be/sites/www.thomasmore.be/files/tm_standaardlogo_web.png\" alt=\"logo TM\" />\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 260,
+        "y": 420,
+        "wires": [
+            []
+        ]
     }
 ]

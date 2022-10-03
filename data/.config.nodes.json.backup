@@ -418,7 +418,7 @@
     },
     "node-red-contrib-opcua": {
         "name": "node-red-contrib-opcua",
-        "version": "0.2.286",
+        "version": "0.2.288",
         "local": true,
         "user": true,
         "nodes": {
@@ -511,7 +511,7 @@
                 "file": "/data/node_modules/node-red-contrib-opcua/opcua/108-opcuarights.js"
             }
         },
-        "pending_version": "0.2.288"
+        "pending_version": "0.2.289"
     },
     "node-red-node-mysql": {
         "name": "node-red-node-mysql",
@@ -789,6 +789,7 @@
                 "module": "node-red-dashboard",
                 "file": "/data/node_modules/node-red-dashboard/nodes/ui_spacer.js"
             }
-        }
+        },
+        "pending_version": "3.2.0"
     }
 }

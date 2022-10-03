@@ -4,7 +4,6 @@ services:
     image: nodered/node-red
     container_name: node_red
     restart: always
-    privileged: true
     volumes:
       - ./data:/data
     ports:

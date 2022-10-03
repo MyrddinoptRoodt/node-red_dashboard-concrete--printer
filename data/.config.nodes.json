@@ -418,7 +418,7 @@
     },
     "node-red-contrib-opcua": {
         "name": "node-red-contrib-opcua",
-        "version": "0.2.288",
+        "version": "0.2.289",
         "local": true,
         "user": true,
         "nodes": {
@@ -553,7 +553,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "3.1.7",
+        "version": "3.2.0",
         "local": true,
         "user": true,
         "nodes": {
