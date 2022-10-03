@@ -18,7 +18,7 @@
     {
         "id": "1e1ae04388d0959a",
         "type": "tab",
-        "label": "control pannel",
+        "label": "control panel",
         "disabled": false,
         "info": "",
         "env": []
@@ -1385,7 +1385,7 @@
     {
         "id": "3c43aa4ad6097072",
         "type": "ui_tab",
-        "name": "controlpanel",
+        "name": "control panel",
         "icon": "dashboard",
         "disabled": false,
         "hidden": false

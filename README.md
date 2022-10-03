@@ -22,7 +22,7 @@ This will be used during development, after deployment this repo will become ina
 * hostname: tm
 * password: moreITF
 
-### crontributers
+### contributors
 * Thiery
 * Myrddin
 * Syan
