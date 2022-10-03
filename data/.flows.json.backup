@@ -16,6 +16,14 @@
         "env": []
     },
     {
+        "id": "1e1ae04388d0959a",
+        "type": "tab",
+        "label": "control pannel",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "891ee435ac193545",
         "type": "MySQLdatabase",
         "name": "db_nodered",
@@ -158,8 +166,8 @@
     {
         "id": "210d9340d2149b29",
         "type": "ui_tab",
-        "name": "Tab 1",
-        "icon": "fa-camera",
+        "name": "Dashboard",
+        "icon": "fa-tachometer",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -1126,7 +1134,7 @@
         "type": "ui_group",
         "name": "Group_1",
         "tab": "210d9340d2149b29",
-        "order": 1,
+        "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1137,7 +1145,7 @@
         "type": "ui_group",
         "name": "Group_2",
         "tab": "210d9340d2149b29",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1148,7 +1156,7 @@
         "type": "ui_group",
         "name": "Group_3",
         "tab": "210d9340d2149b29",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1159,7 +1167,7 @@
         "type": "ui_group",
         "name": "Group 4",
         "tab": "210d9340d2149b29",
-        "order": 4,
+        "order": 5,
         "disp": true,
         "width": 6
     },
@@ -1168,7 +1176,7 @@
         "type": "ui_group",
         "name": "Group 5",
         "tab": "210d9340d2149b29",
-        "order": 5,
+        "order": 6,
         "disp": true,
         "width": 6
     },
@@ -1177,7 +1185,7 @@
         "type": "ui_group",
         "name": "Group 6",
         "tab": "210d9340d2149b29",
-        "order": 6,
+        "order": 7,
         "disp": true,
         "width": 6
     },
@@ -1186,7 +1194,7 @@
         "type": "ui_group",
         "name": "Group 7",
         "tab": "210d9340d2149b29",
-        "order": 7,
+        "order": 8,
         "disp": true,
         "width": 6
     },
@@ -1195,7 +1203,7 @@
         "type": "ui_group",
         "name": "Group 8",
         "tab": "210d9340d2149b29",
-        "order": 8,
+        "order": 9,
         "disp": true,
         "width": 6
     },
@@ -1204,7 +1212,7 @@
         "type": "ui_group",
         "name": "Group 9",
         "tab": "210d9340d2149b29",
-        "order": 9,
+        "order": 10,
         "disp": true,
         "width": 6
     },
@@ -1213,7 +1221,7 @@
         "type": "ui_group",
         "name": "Group 10",
         "tab": "210d9340d2149b29",
-        "order": 10,
+        "order": 11,
         "disp": true,
         "width": 6
     },
@@ -1222,7 +1230,7 @@
         "type": "ui_group",
         "name": "Group 11",
         "tab": "210d9340d2149b29",
-        "order": 11,
+        "order": 12,
         "disp": true,
         "width": 6
     },
@@ -1231,7 +1239,7 @@
         "type": "ui_group",
         "name": "Group 12",
         "tab": "210d9340d2149b29",
-        "order": 12,
+        "order": 13,
         "disp": true,
         "width": 6
     },
@@ -1240,7 +1248,7 @@
         "type": "ui_group",
         "name": "Group 13",
         "tab": "210d9340d2149b29",
-        "order": 13,
+        "order": 14,
         "disp": true,
         "width": 6
     },
@@ -1249,7 +1257,7 @@
         "type": "ui_group",
         "name": "Group 14",
         "tab": "210d9340d2149b29",
-        "order": 14,
+        "order": 15,
         "disp": true,
         "width": 6
     },
@@ -1258,7 +1266,7 @@
         "type": "ui_group",
         "name": "Group 15",
         "tab": "210d9340d2149b29",
-        "order": 15,
+        "order": 16,
         "disp": true,
         "width": 6
     },
@@ -1267,7 +1275,7 @@
         "type": "ui_group",
         "name": "Group 16",
         "tab": "210d9340d2149b29",
-        "order": 16,
+        "order": 17,
         "disp": true,
         "width": 6
     },
@@ -1276,7 +1284,7 @@
         "type": "ui_group",
         "name": "Group 17",
         "tab": "210d9340d2149b29",
-        "order": 17,
+        "order": 18,
         "disp": true,
         "width": 6
     },
@@ -1285,7 +1293,7 @@
         "type": "ui_group",
         "name": "Group 18",
         "tab": "210d9340d2149b29",
-        "order": 18,
+        "order": 19,
         "disp": true,
         "width": 6
     },
@@ -1294,7 +1302,7 @@
         "type": "ui_group",
         "name": "Group 19",
         "tab": "210d9340d2149b29",
-        "order": 19,
+        "order": 20,
         "disp": true,
         "width": 6
     },
@@ -1303,7 +1311,7 @@
         "type": "ui_group",
         "name": "Group 20",
         "tab": "210d9340d2149b29",
-        "order": 20,
+        "order": 21,
         "disp": true,
         "width": 6
     },
@@ -1312,7 +1320,7 @@
         "type": "ui_group",
         "name": "Group 21",
         "tab": "210d9340d2149b29",
-        "order": 21,
+        "order": 22,
         "disp": true,
         "width": 6
     },
@@ -1321,7 +1329,7 @@
         "type": "ui_group",
         "name": "Group 22",
         "tab": "210d9340d2149b29",
-        "order": 22,
+        "order": 23,
         "disp": true,
         "width": 6
     },
@@ -1330,7 +1338,7 @@
         "type": "ui_group",
         "name": "Group 23",
         "tab": "210d9340d2149b29",
-        "order": 23,
+        "order": 24,
         "disp": true,
         "width": 6
     },
@@ -1339,7 +1347,7 @@
         "type": "ui_group",
         "name": "Group 24",
         "tab": "210d9340d2149b29",
-        "order": 24,
+        "order": 25,
         "disp": true,
         "width": 6
     },
@@ -1348,7 +1356,7 @@
         "type": "ui_group",
         "name": "Group 25",
         "tab": "210d9340d2149b29",
-        "order": 25,
+        "order": 26,
         "disp": true,
         "width": 6
     },
@@ -1357,7 +1365,7 @@
         "type": "ui_group",
         "name": "group 26",
         "tab": "210d9340d2149b29",
-        "order": 26,
+        "order": 27,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -1369,6 +1377,36 @@
         "name": "group 3",
         "tab": "28adee398ee01b9e",
         "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3c43aa4ad6097072",
+        "type": "ui_tab",
+        "name": "controlpanel",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e6bdbe357e96ddf1",
+        "type": "ui_group",
+        "name": "logo",
+        "tab": "3c43aa4ad6097072",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fe452729170ed7c6",
+        "type": "ui_group",
+        "name": "Logo",
+        "tab": "210d9340d2149b29",
+        "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -2102,7 +2140,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "1",
+        "repeat": "1.5",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -10070,6 +10108,46 @@
         "wires": []
     },
     {
+        "id": "4f812732f24f2889",
+        "type": "http request",
+        "z": "6e5c79bcaeebd8b9",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "",
+        "persist": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1250,
+        "y": 3500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be24a4378f0842db",
+        "type": "ui_template",
+        "z": "6e5c79bcaeebd8b9",
+        "group": "fe452729170ed7c6",
+        "name": "",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "format": "<div style=\"height: 200px; width: 100%;\" >\n    <img src=\"https://www.thomasmore.be/sites/www.thomasmore.be/files/tm_standaardlogo_web.png\" alt=\"logo TM\" />\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "8e2a50f2fcb5d002",
         "type": "OpcUa-Client",
         "z": "c1a50abf49df9690",
@@ -10722,5 +10800,26 @@
         "x": 530,
         "y": 420,
         "wires": []
+    },
+    {
+        "id": "6a5ef253e8429cde",
+        "type": "ui_template",
+        "z": "1e1ae04388d0959a",
+        "group": "e6bdbe357e96ddf1",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"height: 200px; width: 100%;\" >\n    <img src=\"https://www.thomasmore.be/sites/www.thomasmore.be/files/tm_standaardlogo_web.png\" alt=\"logo TM\" />\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 260,
+        "y": 420,
+        "wires": [
+            []
+        ]
     }
 ]
