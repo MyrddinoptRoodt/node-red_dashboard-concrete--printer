@@ -2,6 +2,8 @@
 This is the github repo for the node-red dashboard for the concrete printer.
 This will be used during development, after deployment this repo will become inactive
 
+[ Logo Thomas More](https://www.thomasmore.be/sites/www.thomasmore.be/files/tm_standaardlogo_web.png)
+
 ## use repo:
 ### prerequisits
 * docker
@@ -23,4 +25,6 @@ This will be used during development, after deployment this repo will become ina
 ### crontributers
 * Thiery
 * Myrddin
-
+* Syan
+* Jordi
+* Michiel
